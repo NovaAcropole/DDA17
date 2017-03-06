@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#131e10</color>
+    <color name="colorPrimaryDark">#30201c</color>
+    <color name="colorAccent">#ce835a</color>
+    <color name="colorAccent2">#efc066</color>
+    <color name="colorAccent2_trans">#50efc066</color>
+
+    <!--Paleta extraída da imagem background pela ferramenta http://www.cssdrive.com/imagepalette/index.php -->
+    <color name="color">#1091508</color>
+    <color name="color2">#0b170a</color>
+    <color name="color3">#0f1b0d</color>
+    <color name="color4">#393d2b</color>
+    <color name="color5">#121c0e</color>
+    <color name="color6">#121d10</color>
+    <color name="color7">#0c180a</color>
+    <color name="color8">#0d180b</color>
+    <color name="color9">#151f11</color>
+    <color name="color10">#293124</color>
+    <color name="color11">#343a2a</color>
+    <color name="color13">#323625</color>
+    <color name="color14">#1f2719</color>
+    <color name="color15">#0f1a0c</color>
+    <color name="color16">#212819</color>
+    <color name="color17">#474a39</color>
+    <color name="color18">#75715c</color>
+    <color name="color19">#584045</color>
+    <color name="color20">#797459</color>
+    <color name="color21">#4e503e</color>
+    <color name="color22">#151f10</color>
+    <color name="color23">#333827</color>
+    <color name="color24">#6d6a50</color>
+    <color name="color25">#9a8159</color>
+    <color name="color28">#2f2d34</color>
+    <color name="color29">#182112</color>
+    <color name="color30">#3b402a</color>
+    <color name="color31">#6b664a</color>
+    <color name="color32">#a77a63</color>
+    <color name="color33">#96603d</color>
+    <color name="color34">#462c2e</color>
+    <color name="color35">#2c262c</color>
+    <color name="color36">#101b0d</color>
+    <color name="color37">#2f3525</color>
+    <color name="color38">#51503b</color>
+    <color name="color39">#696346</color>
+    <color name="color40">#997250</color>
+    <color name="color41">#1d1e25</color>
+    <color name="color42">#191919</color>
+    <color name="color43">#0b1709</color>
+    <color name="color44">#1b2313</color>
+    <color name="color45">#596056</color>
+    <color name="color46">#332931</color>
+    <color name="color47">#7b725e</color>
+    <color name="color48">#453d36</color>
+    <color name="color49">#111810</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
 </resources>
