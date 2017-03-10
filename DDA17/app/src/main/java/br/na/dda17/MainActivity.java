@@ -1,15 +1,19 @@
 package br.na.dda17;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     LinearLayout programacao, exposicao, concerto, plateia, palestra, sobre;
+    TextView tvProgramacao, tvExposicao, tvConcerto, tvPlateia, tvPalestra, tvSobre;
+    Typeface typeface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +70,31 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        setAllFonts();
+
+
+    }
+
+    private void setAllFonts() {
+
+        tvConcerto = (TextView) findViewById(R.id.tv_concerto);
+        tvExposicao = (TextView) findViewById(R.id.tv_exposicao);
+        tvPalestra = (TextView) findViewById(R.id.tv_palestra);
+        tvPlateia = (TextView) findViewById(R.id.tv_plateia);
+        tvProgramacao = (TextView) findViewById(R.id.tv_programacao);
+        tvSobre = (TextView) findViewById(R.id.tv_sobre);
+
+        typeface = Typeface.createFromAsset(getApplicationContext().getResources().getAssets(), "fonts/KeplerStd-Medium.otf");
+        //Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/KeplerStd-Medium.otf");
+
+        tvConcerto.setTypeface(typeface);
+        tvExposicao.setTypeface(typeface);
+        tvPalestra.setTypeface(typeface);
+        tvPlateia.setTypeface(typeface);
+        tvProgramacao.setTypeface(typeface);
+        tvSobre.setTypeface(typeface);
+
 
     }
 
