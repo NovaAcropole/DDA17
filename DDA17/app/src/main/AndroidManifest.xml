@@ -11,11 +11,13 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ProgramacaoActivity" />
+        <activity android:name=".ExposicaoActivity" />
+        <activity android:name=".ConcertoActivity" />
+        <activity android:name=".PlateiaActivity" />
+        <activity android:name=".PalestraActivity" />
+        <activity android:name=".SobreActivity"></activity>
     </application>
 
 </manifest>

@@ -1,34 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
+    android:orientation="vertical"
     tools:context="br.na.dda17.MainActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="90sp"
+        android:background="@color/colorAccent2_trans"
+        android:padding="14dp"
+        android:src="@drawable/na_logo_min" />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_margin="30sp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <LinearLayout
+            android:id="@+id/btProgramacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/menu_space"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    </android.support.design.widget.AppBarLayout>
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:src="@drawable/icon1_programa" />
 
-    <include layout="@layout/content_main" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programação" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btExposicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/menu_space"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:src="@drawable/icon2_expo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exposição" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btConcerto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:src="@drawable/icon3_recital" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concerto" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_margin="30sp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
-</android.support.design.widget.CoordinatorLayout>
+        <LinearLayout
+            android:id="@+id/btPlateia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/menu_space"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:src="@drawable/icon4_plateia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Formação\nde Platéia" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btPalestra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/menu_space"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:src="@drawable/icon5_palestra" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Palestra\nMagna" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:src="@drawable/icon6_sobre" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sobre" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/adorno" />
+
+</LinearLayout>
+
