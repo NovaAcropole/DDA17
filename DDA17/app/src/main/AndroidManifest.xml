@@ -12,25 +12,68 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/FullscreenThemeLana" />
         <activity
             android:name=".SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/FullscreenThemeLana">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProgramacaoActivity" />
-        <activity android:name=".ExposicaoActivity" />
-        <activity android:name=".ConcertoActivity" />
-        <activity android:name=".PlateiaActivity" />
-        <activity android:name=".PalestraActivity" />
-        <activity android:name=".SobreActivity"></activity>
+        <activity
+            android:name=".ProgramacaoActivity"
+            android:label="Programação do evento"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExposicaoActivity"
+            android:label="Exposição de Artes"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ConcertoActivity"
+            android:label="Concerto de Artes"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PlateiaActivity"
+            android:label="Formação de Platéia"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PalestraActivity"
+            android:label="Palestra Magna"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SobreActivity"
+            android:label="Sobre a Nova Acrópole"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

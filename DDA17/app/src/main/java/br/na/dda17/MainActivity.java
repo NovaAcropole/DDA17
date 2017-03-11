@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -86,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
         tvSobre = (TextView) findViewById(R.id.tv_sobre);
 
         typeface = Typeface.createFromAsset(getApplicationContext().getResources().getAssets(), "fonts/KeplerStd-Medium.otf");
-        //Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/KeplerStd-Medium.otf");
 
         tvConcerto.setTypeface(typeface);
         tvExposicao.setTypeface(typeface);
