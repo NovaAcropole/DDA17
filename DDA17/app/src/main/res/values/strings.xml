@@ -5,4 +5,8 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="sobre">Sobre</string>
+    <string name="dda">Dia da Arte</string>
+    <string name="contatos">Contatos</string>
 </resources>
