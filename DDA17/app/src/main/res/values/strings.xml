@@ -32,4 +32,25 @@
         grupo.
         A Pró-Reitoria de Extensão–PROEX têm dado importante apoio à Orquestra por meio do Edital
         de Bolsas- Orquestra Sinfônica da UECE.</string>
+
+    <!-- Strings da página Programação -->
+    <string name="programacao_item1_hora">16h</string>
+    <string name="programacao_item2_hora">17h30</string>
+    <string name="programacao_item3_hora">19h</string>
+    <string name="programacao_item4_hora">20h</string>
+
+    <string name="programacao_item1_titulo">Exposição</string>
+    <string name="programacao_item2_titulo">Audição Comentada</string>
+    <string name="programacao_item3_titulo">Palestra Magna</string>
+    <string name="programacao_item4_titulo">Concerto</string>
+
+    <string name="programacao_item1_descricao">“Conhecendo os Clássicos da Humanidade”: A expressão
+        dos princípios da natureza na Arte</string>
+    <string name="programacao_item2_descricao">"O Lago dos Cisnes" com o formador de plateias
+        Leandro Botelho e participação especial do Ballet Hugo Bianchi</string>
+    <string name="programacao_item3_descricao">"Arte: Caminhos para a Harmonia" com a diretora da
+        Nova Acrópole Fortaleza Kelly Aguiar</string>
+    <string name="programacao_item4_descricao">Apresentação musical com a Orquestra Jovem da OSUECE</string>
+
+
 </resources>
