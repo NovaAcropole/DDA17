@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#30201c</color>
     <color name="colorAccent">#ce835a</color>
     <color name="colorAccent2">#efc066</color>
+    <color name="color_bg">#F9FCB4</color>
+    <color name="color_bg_transp">#80F9FCB4</color>
     <color name="colorAccent2_trans">#50efc066</color>
 
     <!--Paleta extraída da imagem background pela ferramenta http://www.cssdrive.com/imagepalette/index.php -->
@@ -55,6 +57,7 @@
     <color name="color49">#111810</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="color15transp">#660f1a0c</color>
 
 
 </resources>

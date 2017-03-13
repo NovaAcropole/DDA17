@@ -4,18 +4,36 @@
     android:layout_height="match_parent"
     tools:context="br.na.dda17.SplashActivity">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/background"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_margin="20sp"
-        android:layout_width="200sp"
-        android:layout_height="200sp"
-        android:src="@drawable/dda_logo"/>
+        <ImageView
+            android:id="@+id/iv_fundoBoasVindas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
 
+        <ImageView
+            android:id="@+id/iv_logoBranca"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_branca"
+            android:layout_alignBottom="@id/iv_fundoBoasVindas"
+            android:paddingStart="16dp"/>
 
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo_60anos"
+            android:layout_above="@id/iv_logoBranca"
+            android:paddingStart="25dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="270dp"
+            android:src="@drawable/logo_dda"/>
+    </RelativeLayout>
 
 </FrameLayout>
