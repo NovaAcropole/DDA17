@@ -44,7 +44,7 @@
         </activity>
         <activity
             android:name=".ConcertoActivity"
-            android:label="Concerto de Artes"
+            android:label="Concerto"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -52,7 +52,7 @@
         </activity>
         <activity
             android:name=".PlateiaActivity"
-            android:label="Formação de Platéia"
+            android:label="Formação de Plateia"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
