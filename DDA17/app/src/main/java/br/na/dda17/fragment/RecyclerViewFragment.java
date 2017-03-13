@@ -17,7 +17,7 @@ import java.util.List;
 
 import br.na.dda17.Event;
 import br.na.dda17.R;
-import br.na.dda17.ProgramacaoAdapter;
+import br.na.dda17.adapter.ProgramacaoAdapter;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

@@ -1,4 +1,4 @@
-package br.na.dda17;
+package br.na.dda17.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import br.na.dda17.R;
 
 public class PalestraActivity extends AppCompatActivity {
 

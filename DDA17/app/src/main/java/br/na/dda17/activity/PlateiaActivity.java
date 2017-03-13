@@ -1,13 +1,15 @@
-package br.na.dda17;
+package br.na.dda17.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ExposicaoActivity extends AppCompatActivity {
+import br.na.dda17.R;
+
+public class PlateiaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exposicao);
+        setContentView(R.layout.activity_plateia);
     }
 }

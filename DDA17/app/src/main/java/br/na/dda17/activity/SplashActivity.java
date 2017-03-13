@@ -1,9 +1,11 @@
-package br.na.dda17;
+package br.na.dda17.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+
+import br.na.dda17.R;
 
 
 public class SplashActivity extends AppCompatActivity {

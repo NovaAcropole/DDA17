@@ -1,4 +1,4 @@
-package br.na.dda17;
+package br.na.dda17.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import com.github.florent37.materialviewpager.MaterialViewPager;
 import com.github.florent37.materialviewpager.header.HeaderDesign;
 
+import br.na.dda17.R;
 import br.na.dda17.fragment.RecyclerViewFragment;
 import butterknife.ButterKnife;
 

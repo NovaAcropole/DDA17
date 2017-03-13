@@ -33,6 +33,15 @@
         A Pró-Reitoria de Extensão–PROEX têm dado importante apoio à Orquestra por meio do Edital
         de Bolsas- Orquestra Sinfônica da UECE.</string>
 
+    <!-- Menu Items -->
+    <string name="menu_1programacao">Programação</string>
+    <string name="menu_2expo">Exposição</string>
+    <string name="menu_3concerto">Concerto</string>
+    <string name="menu_4audicao">Audição\ncomentada</string>
+    <string name="menu_5palestra">Palestra\nmagna</string>
+    <string name="menu_6sobre">Sobre</string>
+
+
     <!-- Strings da página Programação -->
     <string name="programacao_item1_hora">16h</string>
     <string name="programacao_item2_hora">17h30</string>
