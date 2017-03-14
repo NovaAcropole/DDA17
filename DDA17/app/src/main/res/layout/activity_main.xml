@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:weightSum="10"
     tools:context="br.na.dda17.activity.MainActivity"
-    android:background="@color/color_bg_transp">
+    android:background="#F9FBE7">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -33,7 +33,6 @@
 
             <TextView
                 android:id="@+id/tv_programacao"
-
                 style="@style/MenuTextView"
                 android:text="Programação" />
 
@@ -52,7 +51,6 @@
             <TextView
                 android:id="@+id/tv_exposicao"
                 style="@style/MenuTextView"
-
                 android:text="Exposição" />
 
         </LinearLayout>
