@@ -1,16 +1,5 @@
 <resources>
     <string name="app_name">DDA17</string>
-    <string name="action_settings">Settings</string>
-
-    <string name="title_activity_splash">SplashActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-
-    <string name="na">Nova Acrópole</string>
-
-    <string name="sobre">Sobre</string>
-    <string name="dda">Dia da Arte</string>
-    <string name="contatos">Contatos</string>
 
     <!-- Menu Items -->
     <string name="menu_1programacao">Programação</string>
@@ -164,8 +153,8 @@
 
 
     <!-- Strings da página Concerto -->
-    <string name="titulo_concerto">Orquestra Jovem da OSUECE</string>
-    <string name="descricao_concerto">A Orquestra Sinfônica da UECE teve seu início em agosto de 2009.
+    <string name="concerto_titulo">Orquestra Jovem da OSUECE</string>
+    <string name="concerto_descricao">A Orquestra Sinfônica da UECE teve seu início em agosto de 2009.
         Tem um conjunto variado de obras em seu repertório: de compositores brasileiros em geral,
         com destaque especial para jovens compositores cearenses que desenvolvem atividade
         composicional no Bacharelado em Composição da UECE, arranjos e adaptações de grandes obras
@@ -200,10 +189,41 @@
 
     <!-- Strings da página Palestra -->
 
-    <!-- ADICIONAR AQUI -->
+    <string name="palestra_titulo">Palestra <i>\"Arte: Caminhos para a Harmonia\"</i></string>
+    <string name="palestra_descricao">Palestrante: diretora da Nova Acrópole Fortaleza <b>Kelly Aguiar</b></string>
+
 
     <!-- Strings da página Sobre -->
+    <string name="sobre_na_titulo">Nova Acrópole</string>
+    <string name="sobre_na_descrição">Nova Acrópole é uma organização filosófica presente em mais de 50
+        países há 59 anos, e tem como objetivo desenvolver em cada ser humano aquilo que tem de melhor,
+        por meio da Filosofia, da Cultura e do Voluntariado.\n\nNova Acrópole tem como objetivo
+        desenvolver em cada ser humano aquilo que tem de melhor, por meio da Filosofia,
+        da Cultura e Voluntariado</string>
 
-    <!-- ADICIONAR AQUI -->
+    <string name="sobre_dda_titulo">Dia da Arte</string>
+    <string name="sobre_dda_descricao">No sábado, 18 de março, o Cineteatro São Luiz será o palco
+        do Dia da Arte. Promovido em todo o Brasil pela Organização Internacional Nova Acrópole,
+        o evento gratuito terá como tema geral “Arte: Caminhos para a Harmonia”. A programação que
+        vai das 16h às 21h, contará com exposição, audição comentada ao vivo, palestra e apresentação
+        artística.\n\n A data é comemorada anualmente pela escola de filosofia Nova Acrópole em todas
+        as suas sedes pelo país com o objetivo de relembrar como o cultivo da arte à maneira clássica
+        pode ser um caminho para o homem encontrar a harmonia interior. </string>
+
+    <string name="sobre_contatos_titulo">Contatos</string>
+    <string name="sobre_na_instagram">\@NA.Fortaleza</string>
+    <string name="sobre_na_facebook">https://www.facebook.com/NA.Fortaleza</string>
+    <string name="sobre_na_telefone">(85) 3257-2777 ou (85) 98212-8182 (whatsapp)</string>
+    <string name="sobre_na_mail">fortaleza@acropole.org.br</string>
+    <string name="sobre_na_site">http://www.acropole.org.br/</string>
+    <string name="sobre_na_localizacao_endereco">Rua Vicente Leite, 2451, Dionísio Torres, Fortaleza</string>
+
+
+    <string name="sobre_dda_localizacao_titulo">Como chegar no evento</string>
+    <string name="sobre_dda_localizacao_endereco">Cineteatro São Luiz - Rua Major Facundo, 500 - Centro, Fortaleza - CE, 60025-130</string>
+
+
+    <string name="sobre_desenvolvimento">Desenvolvido por Suelen Moura, Mila e Lana Mesquita</string>
+
 
 </resources>

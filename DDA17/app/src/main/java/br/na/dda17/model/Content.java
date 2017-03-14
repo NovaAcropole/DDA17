@@ -1,31 +1,24 @@
-package br.na.dda17;
+package br.na.dda17.model;
 
 import android.content.Context;
 
 /**
- * Created by Lana on 13/03/2017.
+ * Created by Lana on 14/03/2017.
  */
 
-public class Event {
+public class Content {
 
-    private final String hora;
     private final String titulo;
     private final String descricao;
 
-    public Event(String hora, String titulo, String descricao) {
-        this.hora = hora;
+    public Content(String titulo, String descricao) {
         this.titulo = titulo;
         this.descricao = descricao;
     }
 
-    public Event(Context context, int hora, int titulo, int descricao) {
-        this.hora = context.getResources().getString(hora);
+    public Content(Context context, int titulo, int descricao) {
         this.titulo = context.getResources().getString(titulo);
         this.descricao = context.getResources().getString(descricao);
-    }
-
-    public String getHora() {
-        return hora;
     }
 
     public String getTitulo() {
@@ -35,5 +28,4 @@ public class Event {
     public String getDescricao() {
         return descricao;
     }
-
 }

@@ -34,7 +34,7 @@
             <TextView
                 android:id="@+id/tv_programacao"
                 style="@style/MenuTextView"
-                android:text="Programação" />
+                android:text="@string/menu_1programacao" />
 
         </LinearLayout>
 
@@ -51,8 +51,7 @@
             <TextView
                 android:id="@+id/tv_exposicao"
                 style="@style/MenuTextView"
-                android:text="Exposição" />
-
+                android:text="@string/menu_2expo" />
         </LinearLayout>
 
         <View style="@style/ViewInterno" />
@@ -68,7 +67,7 @@
             <TextView
                 android:id="@+id/tv_concerto"
                 style="@style/MenuTextView"
-                android:text="Concerto" />
+                android:text="@string/menu_3concerto" />
 
         </LinearLayout>
 
@@ -93,7 +92,7 @@
             <TextView
                 android:id="@+id/tv_plateia"
                 style="@style/MenuTextView"
-                android:text="Audição \ncomentada" />
+                android:text="@string/menu_4audicao" />
 
         </LinearLayout>
 
@@ -110,7 +109,7 @@
             <TextView
                 android:id="@+id/tv_palestra"
                 style="@style/MenuTextView"
-                android:text="Palestra\nMagna" />
+                android:text="@string/menu_5palestra" />
 
         </LinearLayout>
 
@@ -128,7 +127,7 @@
                 android:id="@+id/tv_sobre"
                 style="@style/MenuTextView"
                 android:layout_width="wrap_content"
-                android:text="Sobre" />
+                android:text="@string/menu_6sobre" />
 
         </LinearLayout>
 

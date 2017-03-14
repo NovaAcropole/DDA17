@@ -58,6 +58,7 @@
 
     <color name="black_overlay">#66000000</color>
     <color name="color15transp">#660f1a0c</color>
+    <color name="cinza">#494949</color>
 
 
 </resources>

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import br.na.dda17.Event;
+import br.na.dda17.model.Event;
 import br.na.dda17.R;
 
 /**
@@ -56,7 +56,6 @@ public class ProgramacaoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
 class ObjetoHolder extends RecyclerView.ViewHolder {
     TextView hora, descricao, titulo;
-
 
 
     public ObjetoHolder(View view) {

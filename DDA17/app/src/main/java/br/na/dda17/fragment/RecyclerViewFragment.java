@@ -3,9 +3,9 @@ package br.na.dda17.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,23 +15,29 @@ import com.github.florent37.materialviewpager.header.MaterialViewPagerHeaderDeco
 import java.util.ArrayList;
 import java.util.List;
 
-import br.na.dda17.Event;
 import br.na.dda17.R;
+import br.na.dda17.Utils;
+import br.na.dda17.adapter.ContentAdapter;
 import br.na.dda17.adapter.ProgramacaoAdapter;
+import br.na.dda17.adapter.SobreAdapter;
+import br.na.dda17.model.Content;
+import br.na.dda17.model.Event;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by florentchampigny on 24/04/15.
- */
-public class RecyclerViewFragment extends Fragment {
 
-    private static final boolean GRID_LAYOUT = false;
+public class RecyclerViewFragment extends Fragment {
 
     @BindView(R.id.recyclerView)
     RecyclerView mRecyclerView;
+    static int type = 1;
 
     public static RecyclerViewFragment newInstance() {
+        return new RecyclerViewFragment();
+    }
+
+    public static RecyclerViewFragment newInstance(int type) {
+        RecyclerViewFragment.type = type;
         return new RecyclerViewFragment();
     }
 
@@ -45,8 +51,33 @@ public class RecyclerViewFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ButterKnife.bind(this, view);
 
-        final List<Event> items = new ArrayList<>();
+        //setup materialviewpager
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        mRecyclerView.setHasFixedSize(true);
+        mRecyclerView.addItemDecoration(new MaterialViewPagerHeaderDecorator());
 
+        if (type == Utils.VIEW_PROGRAMACAO)
+            setProgramItems();
+        else if (type == Utils.VIEW_EXPO)
+            setExpoItems();
+        else if (type == Utils.VIEW_CONCERTO)
+            setText(R.string.concerto_titulo, R.string.concerto_descricao);
+        else if (type == Utils.VIEW_AUDICAO)
+            setText(R.string.concerto_titulo, R.string.concerto_descricao);
+        else if (type == Utils.VIEW_PALESTRA)
+            setText(R.string.palestra_titulo, R.string.palestra_descricao);
+        else if (type == Utils.VIEW_SOBRE)
+            mRecyclerView.setAdapter(new SobreAdapter(this.getContext()));
+
+
+    }
+
+    private void setExpoItems() {
+    }
+
+    private void setProgramItems() {
+
+        List items = new ArrayList<>();
         items.add(new Event(this.getContext(), R.string.programacao_item1_hora,
                 R.string.programacao_item1_titulo, R.string.programacao_item1_descricao));
         items.add(new Event(this.getContext(), R.string.programacao_item2_hora,
@@ -56,17 +87,18 @@ public class RecyclerViewFragment extends Fragment {
         items.add(new Event(this.getContext(), R.string.programacao_item4_hora,
                 R.string.programacao_item4_titulo, R.string.programacao_item4_descricao));
 
-        //setup materialviewpager
-
-        if (GRID_LAYOUT) {
-            mRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 2));
-        } else {
-            mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        }
-        mRecyclerView.setHasFixedSize(true);
-
         //Use this now
-        mRecyclerView.addItemDecoration(new MaterialViewPagerHeaderDecorator());
         mRecyclerView.setAdapter(new ProgramacaoAdapter(this.getContext(), items));
     }
+
+    private void setText(int titulo, int descricao) {
+
+        List items = new ArrayList<>();
+        items.add(new Content(this.getContext(), titulo, descricao));
+
+        //Use this now
+        mRecyclerView.setAdapter(new ContentAdapter(this.getContext(), items));
+    }
+
+
 }

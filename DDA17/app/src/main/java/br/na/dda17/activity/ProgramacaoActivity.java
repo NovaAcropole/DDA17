@@ -11,6 +11,7 @@ import com.github.florent37.materialviewpager.MaterialViewPager;
 import com.github.florent37.materialviewpager.header.HeaderDesign;
 
 import br.na.dda17.R;
+import br.na.dda17.Utils;
 import br.na.dda17.fragment.RecyclerViewFragment;
 import butterknife.ButterKnife;
 
@@ -38,7 +39,7 @@ public class ProgramacaoActivity extends AppCompatActivity {
 
             @Override
             public Fragment getItem(int position) {
-                return RecyclerViewFragment.newInstance();
+                return RecyclerViewFragment.newInstance(Utils.VIEW_PROGRAMACAO);
             }
 
             @Override
@@ -59,7 +60,6 @@ public class ProgramacaoActivity extends AppCompatActivity {
                 return HeaderDesign.fromColorAndDrawable(
                         ContextCompat.getColor(ProgramacaoActivity.this, R.color.colorPrimary),
                         ContextCompat.getDrawable(ProgramacaoActivity.this, R.drawable.cine));
-
             }
         });
 
