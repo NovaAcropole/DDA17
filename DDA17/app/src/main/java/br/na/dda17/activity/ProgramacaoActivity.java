@@ -58,7 +58,7 @@ public class ProgramacaoActivity extends AppCompatActivity {
 
                 return HeaderDesign.fromColorAndDrawable(
                         ContextCompat.getColor(ProgramacaoActivity.this, R.color.colorPrimary),
-                        ContextCompat.getDrawable(ProgramacaoActivity.this, R.drawable.concerto));
+                        ContextCompat.getDrawable(ProgramacaoActivity.this, R.drawable.cine));
 
             }
         });

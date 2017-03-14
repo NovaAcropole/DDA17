@@ -10,29 +10,6 @@
     <string name="dda">Dia da Arte</string>
     <string name="contatos">Contatos</string>
 
-    <string name="sobre_orquestra">A Orquestra Sinfônica da UECE teve seu início em agosto de 2009.
-        Tem um conjunto variado de obras em seu repertório: de compositores brasileiros em geral,
-        com destaque especial para jovens compositores cearenses que desenvolvem atividade
-        composicional no Bacharelado em Composição da UECE, arranjos e adaptações de grandes obras
-        populares e obras do repertório tradicional sinfônico.
-        É formada por 65 integrantes distribuídos dentre os naipes das madeiras, metais, percussão
-        e cordas. É dirigida artisticamente e regida pelo prof. Alfredo Barros, maestro e
-        compositor, doutor em Artes Musicais pela Universidade do Texas, Austin, EUA. Coordenador e
-        professor de composição do Curso de Música da UECE, o maestro desenvolve projetos
-        artísticos dessa natureza desde 1988.
-        O projeto é uma ação tríplice de ensino, pesquisa e extensão que atua como um forte agente
-        aglutinador de músicos de diferentes camadas sociais e alunos matriculados em cursos
-        superiores da UECE. É sobretudo uma orquestra jovem que tem um compromisso de inclusão
-        social e acadêmica. Abre perspectivas para a orientação e apoio àqueles estudantes de
-        música que procuram uma oportunidade de ingressar na universidade.
-        Orquestra de base - Em 2014 a OSUECE deu início a sua segunda etapa pedagógica de formação
-        de músicos de orquestra. Cerca de 50 jovens e adolescentes de diversas localidades do Ceará
-        participam da Orquestra de Base, que se encontra todas as quintas-feiras, no bloco do Curso
-        de Música da Universidade, para aula de teoria, ensaio de orquestra de cordas e aulas em
-        grupo.
-        A Pró-Reitoria de Extensão–PROEX têm dado importante apoio à Orquestra por meio do Edital
-        de Bolsas- Orquestra Sinfônica da UECE.</string>
-
     <!-- Menu Items -->
     <string name="menu_1programacao">Programação</string>
     <string name="menu_2expo">Exposição</string>
@@ -61,5 +38,47 @@
         Nova Acrópole Fortaleza Kelly Aguiar</string>
     <string name="programacao_item4_descricao">Apresentação musical com a Orquestra Jovem da OSUECE</string>
 
+    <!-- Strings da página Exposição -->
+
+    <!-- ADICIONAR AQUI -->
+
+
+    <!-- Strings da página Concerto -->
+    <string name="titulo_concerto">Orquestra Jovem da OSUECE</string>
+    <string name="descricao_concerto">A Orquestra Sinfônica da UECE teve seu início em agosto de 2009.
+        Tem um conjunto variado de obras em seu repertório: de compositores brasileiros em geral,
+        com destaque especial para jovens compositores cearenses que desenvolvem atividade
+        composicional no Bacharelado em Composição da UECE, arranjos e adaptações de grandes obras
+        populares e obras do repertório tradicional sinfônico.
+        É formada por 65 integrantes distribuídos dentre os naipes das madeiras, metais, percussão
+        e cordas. É dirigida artisticamente e regida pelo prof. Alfredo Barros, maestro e
+        compositor, doutor em Artes Musicais pela Universidade do Texas, Austin, EUA. Coordenador e
+        professor de composição do Curso de Música da UECE, o maestro desenvolve projetos
+        artísticos dessa natureza desde 1988.
+        O projeto é uma ação tríplice de ensino, pesquisa e extensão que atua como um forte agente
+        aglutinador de músicos de diferentes camadas sociais e alunos matriculados em cursos
+        superiores da UECE. É sobretudo uma orquestra jovem que tem um compromisso de inclusão
+        social e acadêmica. Abre perspectivas para a orientação e apoio àqueles estudantes de
+        música que procuram uma oportunidade de ingressar na universidade.
+        Orquestra de base - Em 2014 a OSUECE deu início a sua segunda etapa pedagógica de formação
+        de músicos de orquestra. Cerca de 50 jovens e adolescentes de diversas localidades do Ceará
+        participam da Orquestra de Base, que se encontra todas as quintas-feiras, no bloco do Curso
+        de Música da Universidade, para aula de teoria, ensaio de orquestra de cordas e aulas em
+        grupo.
+        A Pró-Reitoria de Extensão–PROEX têm dado importante apoio à Orquestra por meio do Edital
+        de Bolsas- Orquestra Sinfônica da UECE.</string>
+
+
+    <!-- Strings da página Audição Comentada -->
+
+    <!-- ADICIONAR AQUI -->
+
+    <!-- Strings da página Palestra -->
+
+    <!-- ADICIONAR AQUI -->
+
+    <!-- Strings da página Sobre -->
+
+    <!-- ADICIONAR AQUI -->
 
 </resources>
