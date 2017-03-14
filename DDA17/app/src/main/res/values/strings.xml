@@ -42,7 +42,125 @@
 
     <!-- Strings da página Exposição -->
 
-    <!-- ADICIONAR AQUI -->
+    <string name="exposicao_arte1_nome">Arquitetura</string>
+    <string name="exposicao_arte2_nome">Escultura</string>
+    <string name="exposicao_arte3_nome">Pintura</string>
+    <string name="exposicao_arte4_nome">Literatura</string>
+    <string name="exposicao_arte5_nome">Artes cênicas</string>
+    <string name="exposicao_arte6_nome">Música</string>
+
+    <string name="exposicao_arte1_obra1">A Grande Pirâmide</string>
+    <string name="exposicao_arte1_obra2">Parthenon</string>
+    <string name="exposicao_arte1_obra3">Notre Dame de Paris</string>
+    <string name="exposicao_arte2_obra1">Vitória da Samotrácia</string>
+    <string name="exposicao_arte2_obra2">Exército da Terracota</string>
+    <string name="exposicao_arte2_obra3">O Pensador</string>
+    <string name="exposicao_arte3_obra1">A Primavera, de Botticelli</string>
+    <string name="exposicao_arte3_obra2">Pintura Impressionista</string>
+    <string name="exposicao_arte3_obra3">Pintura Japonesa</string>
+    <string name="exposicao_arte4_obra1">Dom Quixote</string>
+    <string name="exposicao_arte4_obra2">Odisseia</string>
+    <string name="exposicao_arte4_obra3">O Profeta</string>
+    <string name="exposicao_arte5_obra1">Dança indiana</string>
+    <string name="exposicao_arte5_obra2">Teatro Shakespeariano</string>
+    <string name="exposicao_arte5_obra3">Ballet</string>
+    <string name="exposicao_arte6_obra1">Música indiana</string>
+    <string name="exposicao_arte6_obra2">Música clássica ocidental</string>
+
+    <string name="exposicao_arte1_obra1_texto">Ainda que nos seja impossível saber com certeza
+        como os arquitetos egípcios idealizaram e executaram essas obras monumentais, todos nós
+        aplaudimos os gênios que se escondem por detrás destas obras... E seguimos buscando
+        algumas pistas sobre os instrumentos que utilizaram. A notável beleza da pirâmide de Gizé
+        se baseia em sua relação com a proporção áurea. Cada face está exatamente orientada para
+        um dos pontos cardeais. A relação entre as faces da pirâmide e sua altura é uma razão
+        áurea.</string>
+    <string name="exposicao_arte1_obra2_texto">Construído entre 447 e 438 aC e dedicado a
+        Atena, a deusa patronesse de Atenas, o templo tem 8 colunas nos lados mais estreitos e 17
+        colunas em cada um dos lados mais largos. O célebre escultor ateniense Fídias usou as
+        proporções áureas para a criação das obras presentes no Parthenon.</string>
+    <string name="exposicao_arte1_obra3_texto">As construções das igrejas medievais tiveram um
+        desenho muito similar às obras gregas, tendo belas proporções perfeitamente estudadas. A
+        Catedral de Notre Dame de Paris, situada na parte oriental da Ile de CIté, na capital da
+        França, foi consagrada a Maria e, por isso, chamam-na de Notre Dame. É uma das catedrais
+        mais famosas da Idade Média e provavelmente a representante mais conhecida da arte gótica
+        francesa. Sua fachada ocidental está harmoniosamente desenhada de acordo com a proporção
+        áurea e seus vitrais transmitiam mensagem a quem não sabia ler.</string>
+    <string name="exposicao_arte2_obra1_texto">Representação de Niké, a Deusa da Vitória, a estátua
+        originalmente tinha cabeça e braços, com a mão elevada em um gesto de saudação. Esta
+        estátua maciça, de aspecto tão leve, ficava numa fonte sobre um promotório em forma de
+        navio, provavelmente em comemoração a uma batalha náutica. Foi esculpida por volta do ano
+        200 aC. Seus pedaços foram encontrados em 1863 nas ruinas do Santuário dos Grandes Deuses
+        de Samotrácia, na Grécia. Hoje, é um dos maiores destaques do Museu do Louvre</string>
+    <string name="exposicao_arte2_obra2_texto">O Exército de Terracota é uma coleção de esculturas
+        de finalidade funerária enterradas junto com o imperador Qin Shi Huang, o primeiro
+        imperador da dinastia Qin, em 210 aC. A obra monumental conta com cerca de 7 mil soldados,
+        além de carruagens e cavalos, enterrados a 4m de profundidade, em filas que reproduziam
+        formações militares completas.</string>
+    <string name="exposicao_arte2_obra3_texto">Em 1880, Rodin esculpe A Porta do Inferno, uma
+        representação da obra A Divina Comédia, de Dante Aliglieri. Na parte de cima da Porta do
+        Inferno, ele esculpe O Pensador,  que seria o próprio Dante refletindo sobre o querer ou
+        não viver uma vida que termine neste portal. A obra é uma ode à Filosofia, ao ser humano
+        que se propõe a aprender a pensar para fazer as escolhas mais acertadas em sua vida, ao
+        homem que busca a sabedoria.</string>
+    <string name="exposicao_arte3_obra1_texto">Com mais de 3 metros de largura, este é um
+        quadro-síntese do movimento neoplatônico que sacudiu o renascimento italiano. A Primavera,
+        no lado direito, representa a alma humana que desperta para o mundo espiritual. No centro,
+        temos Vênus, a deusa do amor, como o eixo de tudo.</string>
+    <string name="exposicao_arte3_obra2_texto">Monet realizou uma série de pinturas com o mesmo
+        tema mostrando a luz e seus efeitos nas diferentes estações do ano e horas do dia. Ele
+        enfatiza, através das pinceladas, o contraste das cores complementares, e manipula o
+        conhecimento das cores para fazer parecer que estamos olhando algo vivo.</string>
+    <string name="exposicao_arte3_obra3_texto">Esta pintura, conhecida como Apreciadores de
+        Plátano, apresenta algumas pessoas admirando os plátanos ao lado do rio Takao Kiyotaki.
+        Embora esta pintura seja relativamente atual, pois foi feita em 1557, rendeu-se ao estilo
+        tradicional da arte japonesa, pertence à escola Kano, umas das mais importantes escolas de
+        pintura do Japão, fundada por Kano Masanobo.</string>
+    <string name="exposicao_arte4_obra1_texto">Dom Quixote decide tornar-se um cavaleiro andante e
+        parte pelo mundo para viver o seu próprio romance de cavalaria, em companhia de Sancho
+        Pança, seu fiel amigo e escudeiro. Cervantes deixa traçado para toda a humanidade, com seu
+        louco genial, o ideal cavalheiresco comum a todos os povos e a todas as épocas. Sua obra
+        é, na verdade, a vitória e a perpetuação da cavalaria entre nós. “A via da virtude,
+        restrita e trabalhosa, termina em vida, e não em uma vida que se acaba, mas na vida que
+        não terá fim.”</string>
+    <string name="exposicao_arte4_obra2_texto">A Odisseia relata a história do herói Ulisses ou
+        Odisseu, que lutou 10 anos na Guerra de Troia e ajudou a vencê-la com a ideia do Cavalo
+        de Troia; depois, vagou pelos mares por mais 10 anos como um castigo por ter desafiado os
+        deuses. Quando reconheceu que os homens sem os deuses nada são, conseguiu voltar para seu
+        reino, Ítaca, para junto de sua esposa e filho e, juntos, com a ajuda dos deuses,
+        devolveram a paz à cidade. Carrega o símbolo do retorno do homem à sua origem, à sua
+        essência.</string>
+    <string name="exposicao_arte4_obra3_texto">O Profeta é a obra mais famosa do poeta libanês
+        Khalil Gibran. É um livro que atrai não somente pelo estilo, mas também pela filosofia de
+        alto nível contida nele. Seu pensamento faz coro aos clássicos da filosofia do ocidente e
+        do oriente. O livro conta a história do profeta Al Mustafá, que compartilhar sua sabedoria
+        com os moradores de Orphalese.</string>
+    <string name="exposicao_arte5_obra1_texto">A dança clássica indiana é uma linguagem que busca
+        unir o homem à sua essência divina. Acredita-se que ela teve origem há seis mil anos. Ao
+        longo da história, a dança clássica indiana buscou manter e divulgar a tradição hindu,
+        constituindo-se em um estilo de vida pautado pela vivência de valores universais e
+        atemporais.</string>
+    <string name="exposicao_arte5_obra2_texto">Shakespeare foi o maior ícone do teatro
+        renascentista e, como tal, tratou de resgatar o sentido do teatro grego clássico: conduzir
+        a consciência através do desenrolar da história, levando o expectador a desenvolver-se
+        psicologicamente e até espiritualmente junto com os personagens. Suas obras trazem os
+        dramas humanos e a escolha entre viver seus defeitos ou ter uma vida mais digna.</string>
+    <string name="exposicao_arte5_obra3_texto">O Lago dos Cisnes, O Quebra Nozes, A Bela
+        Adormecida, Romeu e Julieta, Le Corsaire, La Fille Mal Gardée, Giselle, La Sylphide, La
+        Bayadère, Dom Quixote e Raymonda são algumas das mais importantes obras clássicas do
+        Ballet. Nestas obras, através da música, da dança e da teatralização, ricos enredos
+        humanizam o espectador, utilizando elementos como disciplina, leveza e harmonia</string>
+    <string name="exposicao_arte6_obra1_texto">A música clássica indiana tem sua origem nos Vedas,
+        escritura sagrada. Esta literatura foi composta em forma de poesia e transmitida pelo
+        canto. Assim, ela participava da vida do povo indiano do seu nascimento à cremação, de
+        modo que esta música acabava por unir o mito e a realidade da vida humana. Sua técnica é
+        transmitida de mestre a discípulo oralmente, não sendo utilizadas notação escritas ou
+        partituras.</string>
+    <string name="exposicao_arte6_obra2_texto">Chama-se “música erudita” ao conjunto de estilos
+        musicais cujos registros temos desde o século IX. Suas raízes estão no canto gregoriano.
+        Mais tarde, houve uma evolução para a polifonia, e, a partir daí, sucederam-se os períodos
+        barroco, clássico, romântico, moderno e contemporâneo. Além de grande ação formativa, hoje
+        já são conhecidos os efeitos clínicos deste tipo de música, bem como sua influência sobre
+        os ambientes e a natureza.</string>
 
 
     <!-- Strings da página Concerto -->
@@ -73,7 +191,12 @@
 
     <!-- Strings da página Audição Comentada -->
 
-    <!-- ADICIONAR AQUI -->
+    <string name="audicao_dica1"></string>
+    <string name="audicao_dica2"></string>
+    <string name="audicao_dica3"></string>
+    <string name="audicao_dica4"></string>
+    <string name="audicao_dica5"></string>
+    <string name="audicao_dica6"></string>
 
     <!-- Strings da página Palestra -->
 
