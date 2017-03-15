@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         plateia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, PlateiaActivity.class);
+                Intent intent = new Intent(MainActivity.this, AudicaoActivity.class);
                 startActivity(intent);
             }
         });

@@ -51,7 +51,7 @@
                 android:value=".activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.PlateiaActivity"
+            android:name=".activity.AudicaoActivity"
             android:label="Formação de Plateia"
             android:parentActivityName=".activity.MainActivity">
             <meta-data
