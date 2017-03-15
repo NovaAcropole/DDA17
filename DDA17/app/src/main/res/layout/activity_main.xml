@@ -1,149 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:weightSum="10"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="br.na.dda17.activity.MainActivity"
-    android:background="#F9FBE7">
+    android:background="#FFFFFF">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:background="@drawable/fundo"
-        android:padding="20dp"
-        android:src="@drawable/banner_inferior_transp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:id="@+id/menuLayout"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
 
-    <View style="@style/ViewExterno" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/fundo"
+            android:padding="20dp"
+            android:src="@drawable/banner_inferior_transp" />
 
-    <LinearLayout style="@style/LinerLayoutExterno">
+        <View style="@style/ViewExterno" />
 
-        <View style="@style/ViewInterno" />
+        <LinearLayout style="@style/LinerLayoutExterno">
 
-        <LinearLayout
-            android:id="@+id/btProgramacao"
-            style="@style/LinerLayoutInterno">
+            <View style="@style/ViewInterno" />
 
-            <ImageView
-                style="@style/MenuImage"
-                android:src="@drawable/icon1_programa" />
+            <LinearLayout
+                android:id="@+id/btProgramacao"
+                style="@style/LinerLayoutInterno">
 
-            <TextView
-                android:id="@+id/tv_programacao"
-                style="@style/MenuTextView"
-                android:text="@string/menu_1programacao" />
+                <ImageView
+                    style="@style/MenuImage"
+                    android:src="@drawable/icon1_programa" />
+
+                <TextView
+                    android:id="@+id/tv_programacao"
+                    style="@style/MenuTextView"
+                    android:text="@string/menu_1programacao" />
+
+            </LinearLayout>
+
+            <View style="@style/ViewInterno" />
+
+            <LinearLayout
+                android:id="@+id/btExposicao"
+                style="@style/LinerLayoutInterno">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    android:src="@drawable/icon2_expo" />
+
+                <TextView
+                    android:id="@+id/tv_exposicao"
+                    style="@style/MenuTextView"
+                    android:text="@string/menu_2expo" />
+            </LinearLayout>
+
+            <View style="@style/ViewInterno" />
+
+            <LinearLayout
+                android:id="@+id/btConcerto"
+                style="@style/LinerLayoutInterno">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    android:src="@drawable/icon3_recital" />
+
+                <TextView
+                    android:id="@+id/tv_concerto"
+                    style="@style/MenuTextView"
+                    android:text="@string/menu_3concerto" />
+
+            </LinearLayout>
+
+            <View style="@style/ViewInterno" />
 
         </LinearLayout>
 
-        <View style="@style/ViewInterno" />
+        <View style="@style/ViewExterno" />
 
-        <LinearLayout
-            android:id="@+id/btExposicao"
-            style="@style/LinerLayoutInterno">
+        <LinearLayout style="@style/LinerLayoutExterno">
 
-            <ImageView
-                style="@style/MenuImage"
-                android:src="@drawable/icon2_expo" />
+            <View style="@style/ViewInterno" />
 
-            <TextView
-                android:id="@+id/tv_exposicao"
-                style="@style/MenuTextView"
-                android:text="@string/menu_2expo" />
+            <LinearLayout
+                android:id="@+id/btPlateia"
+                style="@style/LinerLayoutInterno">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    android:src="@drawable/icon4_plateia" />
+
+                <TextView
+                    android:id="@+id/tv_plateia"
+                    style="@style/MenuTextView"
+                    android:text="@string/menu_4audicao" />
+
+            </LinearLayout>
+
+            <View style="@style/ViewInterno" />
+
+            <LinearLayout
+                android:id="@+id/btPalestra"
+                style="@style/LinerLayoutInterno">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    android:src="@drawable/icon5_palestra" />
+
+                <TextView
+                    android:id="@+id/tv_palestra"
+                    style="@style/MenuTextView"
+                    android:text="@string/menu_5palestra" />
+
+            </LinearLayout>
+
+            <View style="@style/ViewInterno" />
+
+            <LinearLayout
+                android:id="@+id/btSobre"
+                style="@style/LinerLayoutInterno">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    android:src="@drawable/icon6_sobre" />
+
+                <TextView
+                    android:id="@+id/tv_sobre"
+                    style="@style/MenuTextView"
+                    android:layout_width="wrap_content"
+                    android:text="@string/menu_6sobre" />
+
+            </LinearLayout>
+
+            <View style="@style/ViewInterno" />
+
         </LinearLayout>
-
-        <View style="@style/ViewInterno" />
-
-        <LinearLayout
-            android:id="@+id/btConcerto"
-            style="@style/LinerLayoutInterno">
-
-            <ImageView
-                style="@style/MenuImage"
-                android:src="@drawable/icon3_recital" />
-
-            <TextView
-                android:id="@+id/tv_concerto"
-                style="@style/MenuTextView"
-                android:text="@string/menu_3concerto" />
-
-        </LinearLayout>
-
-        <View style="@style/ViewInterno" />
-
     </LinearLayout>
-
-    <View style="@style/ViewExterno" />
-
-    <LinearLayout style="@style/LinerLayoutExterno">
-
-        <View style="@style/ViewInterno" />
-
-        <LinearLayout
-            android:id="@+id/btPlateia"
-            style="@style/LinerLayoutInterno">
-
-            <ImageView
-                style="@style/MenuImage"
-                android:src="@drawable/icon4_plateia" />
-
-            <TextView
-                android:id="@+id/tv_plateia"
-                style="@style/MenuTextView"
-                android:text="@string/menu_4audicao" />
-
-        </LinearLayout>
-
-        <View style="@style/ViewInterno" />
-
-        <LinearLayout
-            android:id="@+id/btPalestra"
-            style="@style/LinerLayoutInterno">
-
-            <ImageView
-                style="@style/MenuImage"
-                android:src="@drawable/icon5_palestra" />
-
-            <TextView
-                android:id="@+id/tv_palestra"
-                style="@style/MenuTextView"
-                android:text="@string/menu_5palestra" />
-
-        </LinearLayout>
-
-        <View style="@style/ViewInterno" />
-
-        <LinearLayout
-            android:id="@+id/btSobre"
-            style="@style/LinerLayoutInterno">
-
-            <ImageView
-                style="@style/MenuImage"
-                android:src="@drawable/icon6_sobre" />
-
-            <TextView
-                android:id="@+id/tv_sobre"
-                style="@style/MenuTextView"
-                android:layout_width="wrap_content"
-                android:text="@string/menu_6sobre" />
-
-        </LinearLayout>
-
-        <View style="@style/ViewInterno" />
-
-    </LinearLayout>
-
-    <View style="@style/ViewExterno" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.5"
-        android:padding="10dp"
-        android:src="@drawable/na_logo_min"/>
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/na_logo_min"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
 

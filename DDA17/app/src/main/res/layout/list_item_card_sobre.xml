@@ -46,7 +46,7 @@
 
             <TextView
                 style="@style/SobreText"
-                android:paddingBottom="10dp"
+                android:layout_marginBottom="25dp"
                 android:text="@string/sobre_dda_localizacao_endereco" />
 
             <View
@@ -77,34 +77,25 @@
                 android:id="@+id/layoutRedesSociais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="25dp"
                 android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/image_facebook"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    style="@style/IconView"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    android:scaleType="centerInside"
                     app:srcCompat="@drawable/icon_facebook" />
 
                 <ImageButton
                     android:id="@+id/image_insta"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    style="@style/IconView"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    android:scaleType="centerInside"
                     app:srcCompat="@drawable/icon_instagram" />
 
                 <ImageButton
                     android:id="@+id/image_youtube"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    style="@style/IconView"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    android:scaleType="centerInside"
                     app:srcCompat="@drawable/icon_youtube" />
 
             </LinearLayout>
@@ -139,20 +130,14 @@
 
                 <ImageButton
                     android:id="@+id/image_facebook_sul"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    style="@style/IconView"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    android:scaleType="centerInside"
                     app:srcCompat="@drawable/icon_facebook" />
 
                 <ImageButton
                     android:id="@+id/image_insta_sul"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    style="@style/IconView"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    android:scaleType="centerInside"
                     app:srcCompat="@drawable/icon_instagram" />
 
             </LinearLayout>
