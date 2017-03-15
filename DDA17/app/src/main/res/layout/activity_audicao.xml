@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.github.florent37.materialviewpager.MaterialViewPager xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/ExposicaoViewPager"
+    android:id="@+id/AudicaoViewPager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:viewpager_animatedHeaderImage="true"
@@ -14,7 +14,7 @@
     app:viewpager_hideLogoWithFade="false"
     app:viewpager_hideToolbarAndTitle="false"
     app:viewpager_imageHeaderDarkLayerAlpha="0.2"
-    app:viewpager_logo="@layout/header2_expo"
+    app:viewpager_logo="@layout/header4_audicao"
     app:viewpager_logoMarginTop="100dp"
     app:viewpager_pagerTitleStrip="@layout/material_view_pager_pagertitlestrip_newstand"
     app:viewpager_parallaxHeaderFactor="1.5"
