@@ -154,61 +154,74 @@
 
     <!-- Strings da página Concerto -->
     <string name="concerto_titulo">Orquestra Jovem da OSUECE</string>
-    <string name="concerto_descricao">A Orquestra Sinfônica da UECE teve seu início em agosto de 2009.
-        Tem um conjunto variado de obras em seu repertório: de compositores brasileiros em geral,
-        com destaque especial para jovens compositores cearenses que desenvolvem atividade
-        composicional no Bacharelado em Composição da UECE, arranjos e adaptações de grandes obras
-        populares e obras do repertório tradicional sinfônico.
-        É formada por 65 integrantes distribuídos dentre os naipes das madeiras, metais, percussão
-        e cordas. É dirigida artisticamente e regida pelo prof. Alfredo Barros, maestro e
-        compositor, doutor em Artes Musicais pela Universidade do Texas, Austin, EUA. Coordenador e
-        professor de composição do Curso de Música da UECE, o maestro desenvolve projetos
-        artísticos dessa natureza desde 1988.
-        O projeto é uma ação tríplice de ensino, pesquisa e extensão que atua como um forte agente
+    <string name="concerto_descricao">A Orquestra Sinfônica da UECE teve seu início em agosto de
+        2009 e é uma ação tríplice de ensino, pesquisa e extensão que atua como um forte agente
         aglutinador de músicos de diferentes camadas sociais e alunos matriculados em cursos
         superiores da UECE. É sobretudo uma orquestra jovem que tem um compromisso de inclusão
         social e acadêmica. Abre perspectivas para a orientação e apoio àqueles estudantes de
-        música que procuram uma oportunidade de ingressar na universidade.
-        Orquestra de base - Em 2014 a OSUECE deu início a sua segunda etapa pedagógica de formação
-        de músicos de orquestra. Cerca de 50 jovens e adolescentes de diversas localidades do Ceará
-        participam da Orquestra de Base, que se encontra todas as quintas-feiras, no bloco do Curso
-        de Música da Universidade, para aula de teoria, ensaio de orquestra de cordas e aulas em
-        grupo.
-        A Pró-Reitoria de Extensão–PROEX têm dado importante apoio à Orquestra por meio do Edital
-        de Bolsas- Orquestra Sinfônica da UECE.</string>
+        música que procuram uma oportunidade de ingressar na universidade.\n
+        Sob a regência dos maestros Rélmerson Lima e William Ciríaco, cerca de 50 jovens e
+        adolescentes de diversas localidades do Ceará participam da Orquestra de Base, que se
+        encontra todas as quintas-feiras, no bloco do Curso de Música da Universidade, para aula
+        de teoria, ensaio de orquestra de cordas e aulas em grupo.</string>
+    <string-array name="concerto_musicas"><item>Quatro Momentos Nº3 - Ernani Aguiar</item>
+    <item>Concerto in D - Vivaldi</item>
+    <item>Pagina D'Album - Michele Mangani</item>
+    <item>Valsa do Imperador - Strauss</item></string-array>
 
 
     <!-- Strings da página Audição Comentada -->
 
-    <string name="audicao_dica1"></string>
-    <string name="audicao_dica2"></string>
-    <string name="audicao_dica3"></string>
-    <string name="audicao_dica4"></string>
-    <string name="audicao_dica5"></string>
-    <string name="audicao_dica6"></string>
+    <string name="audicao_dica1">Um concerto de música erudita é algo um pouco mais formal, então
+        essa ocasião pede um traje mais especial. Vista-se elegante e confortavelmente.</string>
+    <string name="audicao_dica2">Ao entrar na sala de espetáculo, geralmente é oferecido um
+        programa das obras que serão apresentadas naquele concerto. Pegue um desses e não se
+        separe mais dele.  Será sua bússola durante toda a apresentação.</string>
+    <string name="audicao_dica3">Lembre-se de aplaudir sempre que uma peça terminar. Não se
+        esqueça que algumas peças tem mais de uma parte, e só devemos aplaudir ao final de
+        todas.</string>
+    <string name="audicao_dica4">Barulhos como abrir uma bala, conversar durante a música e
+        cantarolar com os instrumentos ou ficar em pé são inadmissíveis em espetáculos. Respeite
+        essas pequenas regras e tenha um momento inesquecível.</string>
+    <string name="audicao_dica5">Em espetáculos mantenha seu telefone celular desligado ou em
+        modo silencioso. O silêncio tem um significado especial em apresentações artísticas mais
+        elaboradas.</string>
+    <string name="audicao_dica6">Prepare-se... o concerto já vai começar! É hora de acalmar os
+        ânimos e se preparar para apreciar uma bela música. Apreciar uma obra requer máxima
+        atenção e concentração. A beleza se encontra nos detalhes e a concentração é
+        fundamental</string>
 
     <!-- Strings da página Palestra -->
 
     <string name="palestra_titulo">Palestra <i>\"Arte: Caminhos para a Harmonia\"</i></string>
     <string name="palestra_descricao">Palestrante: diretora da Nova Acrópole Fortaleza <b>Kelly Aguiar</b></string>
-
+    <string name="palestra_texto">Sob a ótica da filosofia à maneira clássica, a arte tem o
+        intuito de reproduzir a harmonia da natureza;  é uma experiência de equilíbrio, de
+        relação das partes com o conjunto. Percebê-la de qualquer outra maneira implica em passar
+        por cima de seu componente mais essencial: sob este enfoque, um quadro bem feito, uma
+        escultura, uma obra arquitetônica, a música, a prosa e a poesia, seriam expressões
+        artísticas organizadas e harmoniosamente equilibradas em torno de um sentido de
+        proporção oculto.\n
+        A arte, criada assim, com o intuito de reproduzir a harmonia da natureza, pode ser fruto
+        de um ato consciente ou intuitivo do artista e, assim como as formas da natureza, ela se
+        eterniza. </string>
 
     <!-- Strings da página Sobre -->
     <string name="sobre_na_titulo">Nova Acrópole</string>
-    <string name="sobre_na_descrição">Nova Acrópole é uma organização filosófica presente em mais de 50
-        países há 59 anos, e tem como objetivo desenvolver em cada ser humano aquilo que tem de melhor,
-        por meio da Filosofia, da Cultura e do Voluntariado.\n\nNova Acrópole tem como objetivo
-        desenvolver em cada ser humano aquilo que tem de melhor, por meio da Filosofia,
-        da Cultura e Voluntariado</string>
+    <string name="sobre_na_descrição">Nova Acrópole é uma organização internacional filosófica,
+        presente em mais de 50 países há 60 anos, que tem por objetivo desenvolver em cada ser
+        humano aquilo que ele tem de melhor por meio da filosofia, da cultura e do voluntariado.\n\n
+        Com seu Curso de Filosofia Prática, adaptado para mais de 30 línguas e sem qualquer
+        distinção de idade, condição social, posição política ou religiosa, Nova Acrópole tem
+        beneficiado milhares de pessoas em todo o mundo que buscam conhecer-se, desenvolver-se e
+        contribuir com a criação de um mundo melhor.</string>
 
     <string name="sobre_dda_titulo">Dia da Arte</string>
-    <string name="sobre_dda_descricao">No sábado, 18 de março, o Cineteatro São Luiz será o palco
-        do Dia da Arte. Promovido em todo o Brasil pela Organização Internacional Nova Acrópole,
-        o evento gratuito terá como tema geral “Arte: Caminhos para a Harmonia”. A programação que
-        vai das 16h às 21h, contará com exposição, audição comentada ao vivo, palestra e apresentação
-        artística.\n\n A data é comemorada anualmente pela escola de filosofia Nova Acrópole em todas
-        as suas sedes pelo país com o objetivo de relembrar como o cultivo da arte à maneira clássica
-        pode ser um caminho para o homem encontrar a harmonia interior. </string>
+    <string name="sobre_dda_descricao">O Dia da Arte é comemorado anualmente pela escola de filosofia Nova
+        Acrópole em todas as suas sedes pelo país com o objetivo de relembrar como o cultivo da
+        arte à maneira clássica pode ser um caminho para o homem encontrar a harmonia interior.\n\n
+        Neste ano, o Cineteatro São Luiz foi o palco escolhido em Fortaleza para receber o evento,
+        tendo como tema central “Arte: Caminhos para a Harmonia”.</string>
 
     <string name="sobre_contatos_titulo">Contatos</string>
     <string name="sobre_na_instagram">\@NA.Fortaleza</string>
@@ -224,6 +237,4 @@
 
 
     <string name="sobre_desenvolvimento">Desenvolvido por Suelen Moura, Mila e Lana Mesquita</string>
-
-
 </resources>
