@@ -208,7 +208,7 @@
 
     <!-- Strings da página Sobre -->
     <string name="sobre_na_titulo">Nova Acrópole</string>
-    <string name="sobre_na_descrição">Nova Acrópole é uma organização internacional filosófica,
+    <string name="sobre_na_descricao">Nova Acrópole é uma organização internacional filosófica,
         presente em mais de 50 países há 60 anos, que tem por objetivo desenvolver em cada ser
         humano aquilo que ele tem de melhor por meio da filosofia, da cultura e do voluntariado.\n\n
         Com seu Curso de Filosofia Prática, adaptado para mais de 30 línguas e sem qualquer
@@ -224,13 +224,20 @@
         tendo como tema central “Arte: Caminhos para a Harmonia”.</string>
 
     <string name="sobre_contatos_titulo">Contatos</string>
-    <string name="sobre_na_instagram">\@NA.Fortaleza</string>
+    <string name="sobre_na_fort">Nova Acrópole Fortaleza</string>
+    <string name="sobre_na_fort_sul">Nova Acrópole Fortaleza Sul</string>
+    <string name="sobre_na_instagram">https://www.instagram.com/nafortaleza</string>
+    <string name="sobre_na_instagram_sul">https://www.instagram.com/nafortalezasul</string>
     <string name="sobre_na_facebook">https://www.facebook.com/NA.Fortaleza</string>
-    <string name="sobre_na_telefone">(85) 3257-2777 ou (85) 98212-8182 (whatsapp)</string>
+    <string name="sobre_na_facebook_sul">https://www.facebook.com/NA.FortalezaSul</string>
+    <string name="sobre_na_telefone">(85) 3257-2777 / (85) 98212-8182 (whatsapp)</string>
+    <string name="sobre_na_telefone_sul">(85) 3037-9556 / (85) 98202-8600 (whatsapp)</string>
     <string name="sobre_na_mail">fortaleza@acropole.org.br</string>
-    <string name="sobre_na_site">http://www.acropole.org.br/</string>
+    <string name="sobre_na_site">http://www.acropole.org.br/brasil/sedes/ceara/fortaleza.html</string>
+    <string name="sobre_na_site_sul">http:/www.acropole.org.br/brasil/sedes/ceara/fortaleza-sul.html</string>
     <string name="sobre_na_localizacao_endereco">Rua Vicente Leite, 2451, Dionísio Torres, Fortaleza</string>
-
+    <string name="sobre_na_localizacao_endereco_sul">Rua Antenor Rocha Alexandre, 330, Parque Manibura. Próximo ao Pátio Água Fria e Via Sul</string>
+    <string name="sobre_na_youtube">https://www.youtube.com/user/NovaAcropole</string>
 
     <string name="sobre_dda_localizacao_titulo">Como chegar no evento</string>
     <string name="sobre_dda_localizacao_endereco">Cineteatro São Luiz - Rua Major Facundo, 500 - Centro, Fortaleza - CE, 60025-130</string>

@@ -16,6 +16,8 @@ import java.util.List;
 import br.na.dda17.R;
 import br.na.dda17.model.Content;
 
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
+
 
 public class SobreAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
@@ -55,12 +57,16 @@ class SobreHolder extends RecyclerView.ViewHolder {
 
     // intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
     ImageButton faceBtn, instaBtn, youtubeBtn;
+    ImageButton faceSulBtn, instaSulBtn;
 
     public SobreHolder(View view) {
         super(view);
         faceBtn = (ImageButton) view.findViewById(R.id.image_facebook);
         instaBtn = (ImageButton) view.findViewById(R.id.image_insta);
         youtubeBtn = (ImageButton) view.findViewById(R.id.image_youtube);
+
+        faceSulBtn = (ImageButton) view.findViewById(R.id.image_facebook_sul);
+        instaSulBtn = (ImageButton) view.findViewById(R.id.image_insta_sul);
         setButtons();
     }
 
@@ -69,21 +75,37 @@ class SobreHolder extends RecyclerView.ViewHolder {
         faceBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/NA.Fortaleza"));
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(v.getContext().getResources().getString(R.string.sobre_na_facebook)));
                 v.getContext().startActivity(i);
             }
         });
         instaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/nafortaleza"));
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(v.getContext().getResources().getString(R.string.sobre_na_instagram)));
+                v.getContext().startActivity(i);
+            }
+        });
+
+        faceSulBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(v.getContext().getResources().getString(R.string.sobre_na_facebook_sul)));
+                v.getContext().startActivity(i);
+            }
+        });
+
+        instaSulBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(v.getContext().getResources().getString(R.string.sobre_na_instagram_sul)));
                 v.getContext().startActivity(i);
             }
         });
         youtubeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/user/NovaAcropole"));
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(v.getContext().getResources().getString(R.string.sobre_na_youtube)));
                 v.getContext().startActivity(i);
             }
         });
