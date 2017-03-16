@@ -8,12 +8,18 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
+import android.app.Activity;
+import android.app.FragmentManager;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import com.github.florent37.materialviewpager.MaterialViewPager;
 import com.github.florent37.materialviewpager.header.HeaderDesign;
 
 import br.na.dda17.R;
 import br.na.dda17.Utils;
+import br.na.dda17.fragment.EggDialogFragment;
 import br.na.dda17.fragment.RecyclerViewFragment;
 import butterknife.ButterKnife;
 
@@ -72,9 +78,17 @@ public class SobreActivity extends AppCompatActivity {
             logo.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    mViewPager.notifyHeaderChanged();
+                   /** mViewPager.notifyHeaderChanged();
                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.eegg),
-                            Toast.LENGTH_LONG).show();
+                            Toast.LENGTH_LONG).show();**/
+
+                    FragmentManager manager = getFragmentManager();
+                    android.app.Fragment frag = manager.findFragmentByTag("fragment_edit_name");
+                    if (frag != null) {
+                        manager.beginTransaction().remove(frag).commit();
+                    }
+                            EggDialogFragment alertDialogFragment = new EggDialogFragment();
+                            alertDialogFragment.show(manager, "fragment_edit_name");
 
                 }
             });
