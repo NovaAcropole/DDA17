@@ -116,6 +116,9 @@
                 android:text="@string/sobre_na_site_sul" />
             <TextView
                 style="@style/SobreText"
+                android:text="@string/sobre_na_mail_sul" />
+            <TextView
+                style="@style/SobreText"
                 android:text="@string/sobre_na_telefone_sul" />
             <TextView
                 style="@style/SobreText"

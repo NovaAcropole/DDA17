@@ -194,8 +194,8 @@
     <!-- Strings da página Palestra -->
 
     <string name="palestra_titulo">Palestra <i>\"Arte: Caminhos para a Harmonia\"</i></string>
-    <string name="palestra_descricao">Palestrante: diretora da Nova Acrópole Fortaleza <b>Kelly Aguiar</b></string>
-    <string name="palestra_texto">Sob a ótica da filosofia à maneira clássica, a arte tem o
+    <string name="palestra_descricao">Palestrante: diretora da Nova Acrópole Fortaleza <b>Kelly Aguiar</b>
+        \n\nSob a ótica da filosofia à maneira clássica, a arte tem o
         intuito de reproduzir a harmonia da natureza;  é uma experiência de equilíbrio, de
         relação das partes com o conjunto. Percebê-la de qualquer outra maneira implica em passar
         por cima de seu componente mais essencial: sob este enfoque, um quadro bem feito, uma
@@ -232,6 +232,7 @@
     <string name="sobre_na_telefone">(85) 3257-2777 / (85) 98212-8182 (whatsapp)</string>
     <string name="sobre_na_telefone_sul">(85) 3037-9556 / (85) 98202-8600 (whatsapp)</string>
     <string name="sobre_na_mail">fortaleza@acropole.org.br</string>
+    <string name="sobre_na_mail_sul">fortalezasul@acropole.org.br</string>
     <string name="sobre_na_site">http://www.acropole.org.br/brasil/sedes/ceara/fortaleza.html</string>
     <string name="sobre_na_site_sul">http:/www.acropole.org.br/brasil/sedes/ceara/fortaleza-sul.html</string>
     <string name="sobre_na_localizacao_endereco">Rua Vicente Leite, 2451, Dionísio Torres, Fortaleza</string>
