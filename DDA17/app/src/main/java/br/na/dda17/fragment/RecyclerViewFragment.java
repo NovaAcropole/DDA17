@@ -75,7 +75,7 @@ public class RecyclerViewFragment extends Fragment {
         else if (type == Utils.VIEW_EXPO) {
             setContentExpo(items);
         } else if (type == Utils.VIEW_CONCERTO)
-            setText(R.string.concerto_titulo, R.string.concerto_descricao);
+            setContentConcerto();
         else if (type == Utils.VIEW_AUDICAO)
             setContentAudicao();
         else if (type == Utils.VIEW_PALESTRA)
@@ -147,6 +147,14 @@ public class RecyclerViewFragment extends Fragment {
         items.add(new Content(this.getContext(), R.string.audicao_dica4_titulo, R.string.audicao_dica4));
         items.add(new Content(this.getContext(), R.string.audicao_dica5_titulo, R.string.audicao_dica5));
         items.add(new Content(this.getContext(), R.string.audicao_dica6_titulo, R.string.audicao_dica6));
+
+        mRecyclerView.setAdapter(new ContentAdapter(items, Utils.VIEW_AUDICAO));
+    }
+
+    private void setContentConcerto() {
+        List items = new ArrayList<>();
+        items.add(new Content(this.getContext(), R.string.concerto_titulo, R.string.concerto_descricao));
+        items.add(new Content(this.getContext(), R.string.concerto_programa, R.string.concerto_musicas));
 
         mRecyclerView.setAdapter(new ContentAdapter(items, Utils.VIEW_AUDICAO));
     }

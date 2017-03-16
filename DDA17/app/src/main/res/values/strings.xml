@@ -2,7 +2,7 @@
     <string name="app_name">DDA17</string>
 
     <!-- Menu Items -->
-    <string name="menu_1programacao">Programação</string>
+    <string name="menu_1programacao">Horários</string>
     <string name="menu_2expo">Exposição</string>
     <string name="menu_3concerto">Concerto</string>
     <string name="menu_4audicao">Audição\ncomentada</string>
@@ -164,16 +164,17 @@
         adolescentes de diversas localidades do Ceará participam da Orquestra de Base, que se
         encontra todas as quintas-feiras, no bloco do Curso de Música da Universidade, para aula
         de teoria, ensaio de orquestra de cordas e aulas em grupo.</string>
-    <string-array name="concerto_musicas"><item>Quatro Momentos Nº3 - Ernani Aguiar</item>
-    <item>Concerto in D - Vivaldi</item>
-    <item>Pagina D\'Album - Michele Mangani</item>
-    <item>Valsa do Imperador - Strauss</item></string-array>
+    <string name="concerto_programa">Programa</string>
+    <string name="concerto_musicas">Quatro Momentos Nº3 - Ernani Aguiar\n\n
+        Concerto in D - Vivaldi\n\n
+        Pagina D\'Album - Michele Mangani\n\n
+        Valsa do Imperador - Strauss</string>
 
 
     <!-- Strings da página Audição Comentada -->
     <string name="audicao_dica1_titulo">Dica 1 - Traje especial</string>
     <string name="audicao_dica2_titulo">Dica 2 - Veja o programa</string>
-    <string name="audicao_dica3_titulo">Dica 3 - Apludir só no final</string>
+    <string name="audicao_dica3_titulo">Dica 3 - Aplaudir só no final</string>
     <string name="audicao_dica4_titulo">Dica 4 - Evite fazer barulho</string>
     <string name="audicao_dica5_titulo">Dica 5 - Desligue o celular</string>
     <string name="audicao_dica6_titulo">Dica 6 - Concentre-se</string>
