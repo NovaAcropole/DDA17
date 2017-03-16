@@ -2,7 +2,7 @@
     <string name="app_name">DDA17</string>
 
     <!-- Menu Items -->
-    <string name="menu_1programacao">Horários</string>
+    <string name="menu_1programacao">Programação</string>
     <string name="menu_2expo">Exposição</string>
     <string name="menu_3concerto">Concerto</string>
     <string name="menu_4audicao">Audição\ncomentada</string>

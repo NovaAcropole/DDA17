@@ -5,6 +5,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -12,7 +13,7 @@ import br.na.dda17.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout programacao, exposicao, concerto, plateia, palestra, sobre;
+    ImageView programacao, exposicao, concerto, plateia, palestra, sobre;
     TextView tvProgramacao, tvExposicao, tvConcerto, tvPlateia, tvPalestra, tvSobre;
     Typeface typeface;
 
@@ -21,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        programacao = (LinearLayout) findViewById(R.id.btProgramacao);
-        exposicao = (LinearLayout) findViewById(R.id.btExposicao);
-        concerto = (LinearLayout) findViewById(R.id.btConcerto);
-        plateia = (LinearLayout) findViewById(R.id.btPlateia);
-        palestra = (LinearLayout) findViewById(R.id.btPalestra);
-        sobre = (LinearLayout) findViewById(R.id.btSobre);
+        programacao = (ImageView) findViewById(R.id.icon_programa);
+        exposicao = (ImageView) findViewById(R.id.icon_expo);
+        concerto = (ImageView) findViewById(R.id.icon_concerto);
+        plateia = (ImageView) findViewById(R.id.icon_plateia);
+        palestra = (ImageView) findViewById(R.id.icon_palestra);
+        sobre = (ImageView) findViewById(R.id.icon_sobre);
 
         programacao.setOnClickListener(new View.OnClickListener() {
             @Override

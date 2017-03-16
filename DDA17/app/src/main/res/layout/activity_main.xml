@@ -7,147 +7,158 @@
     tools:context="br.na.dda17.activity.MainActivity"
     android:background="#FFFFFF">
 
-    <LinearLayout
+    <ImageView
+        android:id="@id/image_main"
         android:layout_width="0dp"
-        android:layout_height="476dp"
-        android:orientation="vertical"
-        android:weightSum="10"
-        android:id="@+id/menuLayout"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="100dp"
+        android:background="@drawable/fundo"
+        android:padding="8dp"
+        android:src="@drawable/banner_inferior_transp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="2"
-            android:background="@drawable/fundo"
-            android:padding="8dp"
-            android:src="@drawable/banner_inferior_transp" />
+    <android.support.constraint.Guideline
+        android:id="@id/guidelineE"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="0dp" />
 
-        <View style="@style/ViewExterno" />
+    <android.support.constraint.Guideline
+        android:id="@id/guidelineD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95"
+        tools:layout_editor_absoluteX="365dp"
+        tools:layout_editor_absoluteY="0dp" />
 
-        <LinearLayout style="@style/LinerLayoutExterno">
+    <android.support.constraint.Guideline
+        android:id="@id/guidelineT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
 
-            <View style="@style/ViewInterno" />
-
-            <LinearLayout
-                android:id="@+id/btProgramacao"
-                style="@style/LinerLayoutInterno">
-
-                <ImageView
-                    style="@style/MenuImage"
-                    android:src="@drawable/icon1_programa" />
-
-                <TextView
-                    android:id="@+id/tv_programacao"
-                    style="@style/MenuTextView"
-                    android:text="@string/menu_1programacao" />
-
-            </LinearLayout>
-
-            <View style="@style/ViewInterno" />
-
-            <LinearLayout
-                android:id="@+id/btExposicao"
-                style="@style/LinerLayoutInterno">
-
-                <ImageView
-                    style="@style/MenuImage"
-                    android:src="@drawable/icon2_expo" />
-
-                <TextView
-                    android:id="@+id/tv_exposicao"
-                    style="@style/MenuTextView"
-                    android:text="@string/menu_2expo" />
-            </LinearLayout>
-
-            <View style="@style/ViewInterno" />
-
-            <LinearLayout
-                android:id="@+id/btConcerto"
-                style="@style/LinerLayoutInterno">
-
-                <ImageView
-                    style="@style/MenuImage"
-                    android:src="@drawable/icon3_recital" />
-
-                <TextView
-                    android:id="@+id/tv_concerto"
-                    style="@style/MenuTextView"
-                    android:text="@string/menu_3concerto" />
-
-            </LinearLayout>
-
-            <View style="@style/ViewInterno" />
-
-        </LinearLayout>
-
-        <View style="@style/ViewExterno" />
-
-        <LinearLayout style="@style/LinerLayoutExterno">
-
-            <View style="@style/ViewInterno" />
-
-            <LinearLayout
-                android:id="@+id/btPlateia"
-                style="@style/LinerLayoutInterno">
-
-                <ImageView
-                    style="@style/MenuImage"
-                    android:src="@drawable/icon4_plateia" />
-
-                <TextView
-                    android:id="@+id/tv_plateia"
-                    style="@style/MenuTextView"
-                    android:text="@string/menu_4audicao" />
-
-            </LinearLayout>
-
-            <View style="@style/ViewInterno" />
-
-            <LinearLayout
-                android:id="@+id/btPalestra"
-                style="@style/LinerLayoutInterno">
-
-                <ImageView
-                    style="@style/MenuImage"
-                    android:src="@drawable/icon5_palestra" />
-
-                <TextView
-                    android:id="@+id/tv_palestra"
-                    style="@style/MenuTextView"
-                    android:text="@string/menu_5palestra" />
-
-            </LinearLayout>
-
-            <View style="@style/ViewInterno" />
-
-            <LinearLayout
-                android:id="@+id/btSobre"
-                style="@style/LinerLayoutInterno">
-
-                <ImageView
-                    style="@style/MenuImage"
-                    android:src="@drawable/icon6_sobre" />
-
-                <TextView
-                    android:id="@+id/tv_sobre"
-                    style="@style/MenuTextView"
-                    android:layout_width="wrap_content"
-                    android:text="@string/menu_6sobre" />
-
-            </LinearLayout>
-
-            <View style="@style/ViewInterno" />
-
-        </LinearLayout>
-    </LinearLayout>
+    <android.support.constraint.Guideline
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@id/guidelineB"
+        app:layout_constraintGuide_percent="0.75"
+        android:orientation="horizontal" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@id/icon_programa"
+        style="@style/MenuImage"
+        android:src="@drawable/icon1_programa"
+        app:layout_constraintLeft_toLeftOf="@id/guidelineE"
+        app:layout_constraintTop_toBottomOf="@id/guidelineT"
+        app:layout_constraintRight_toLeftOf="@id/icon_expo"
+        app:layout_constraintBottom_toTopOf="@id/icon_plateia" />
+
+    <TextView
+        android:id="@id/tv_programacao"
+        style="@style/MenuTextView"
+        android:text="@string/menu_1programacao"
+        app:layout_constraintLeft_toLeftOf="@id/icon_programa"
+        app:layout_constraintRight_toRightOf="@id/icon_programa"
+        app:layout_constraintTop_toBottomOf="@id/icon_programa"/>
+
+    <ImageView
+        android:id="@id/icon_expo"
+        style="@style/MenuImage"
+        android:src="@drawable/icon2_expo"
+        app:layout_constraintLeft_toRightOf="@id/icon_programa"
+        app:layout_constraintRight_toLeftOf="@id/icon_concerto"
+        app:layout_constraintTop_toBottomOf="@id/guidelineT"
+        app:layout_constraintBottom_toTopOf="@id/icon_palestra" />
+
+    <TextView
+        android:id="@id/tv_exposicao"
+        style="@style/MenuTextView"
+        android:text="@string/menu_2expo"
+        app:layout_constraintLeft_toLeftOf="@id/icon_expo"
+        app:layout_constraintRight_toRightOf="@id/icon_expo"
+        app:layout_constraintTop_toBottomOf="@id/icon_expo"/>
+
+    <ImageView
+        android:id="@id/icon_concerto"
+        style="@style/MenuImage"
+        android:src="@drawable/icon3_recital"
+        app:layout_constraintLeft_toRightOf="@id/icon_expo"
+        app:layout_constraintRight_toLeftOf="@id/guidelineD"
+        app:layout_constraintTop_toBottomOf="@id/guidelineT"
+        app:layout_constraintBottom_toTopOf="@id/icon_sobre" />
+
+    <TextView
+        android:id="@id/tv_concerto"
+        style="@style/MenuTextView"
+        android:text="@string/menu_3concerto"
+        app:layout_constraintLeft_toLeftOf="@id/icon_concerto"
+        app:layout_constraintRight_toRightOf="@id/icon_concerto"
+        app:layout_constraintTop_toBottomOf="@id/icon_concerto"/>
+
+    <ImageView
+        android:id="@id/icon_plateia"
+        style="@style/MenuImage"
+        android:src="@drawable/icon4_plateia"
+        app:layout_constraintTop_toBottomOf="@id/icon_programa"
+        app:layout_constraintLeft_toLeftOf="@id/guidelineE"
+        app:layout_constraintRight_toLeftOf="@id/icon_palestra"
+        app:layout_constraintBottom_toTopOf="@id/guidelineB"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@id/tv_plateia"
+        style="@style/MenuTextView"
+        android:text="@string/menu_4audicao"
+        app:layout_constraintLeft_toLeftOf="@id/icon_plateia"
+        app:layout_constraintRight_toRightOf="@id/icon_plateia"
+        app:layout_constraintTop_toBottomOf="@id/icon_plateia" />
+
+    <ImageView
+        android:id="@id/icon_palestra"
+        style="@style/MenuImage"
+        android:src="@drawable/icon5_palestra"
+        app:layout_constraintTop_toBottomOf="@id/icon_expo"
+        app:layout_constraintLeft_toRightOf="@id/icon_plateia"
+        app:layout_constraintRight_toLeftOf="@id/icon_sobre"
+        app:layout_constraintBottom_toTopOf="@id/guidelineB"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@id/tv_palestra"
+        style="@style/MenuTextView"
+        android:text="@string/menu_5palestra"
+        app:layout_constraintLeft_toLeftOf="@id/icon_palestra"
+        app:layout_constraintRight_toRightOf="@id/icon_palestra"
+        app:layout_constraintTop_toBottomOf="@id/icon_palestra"/>
+
+    <ImageView
+        android:id="@id/icon_sobre"
+        style="@style/MenuImage"
+        android:src="@drawable/icon6_sobre"
+        app:layout_constraintLeft_toRightOf="@id/icon_palestra"
+        app:layout_constraintRight_toLeftOf="@id/guidelineD"
+        app:layout_constraintBottom_toTopOf="@id/guidelineB"
+        app:layout_constraintTop_toBottomOf="@id/icon_concerto"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@id/tv_sobre"
+        style="@style/MenuTextView"
+        android:text="@string/menu_6sobre"
+        app:layout_constraintLeft_toLeftOf="@id/icon_sobre"
+        app:layout_constraintRight_toRightOf="@id/icon_sobre"
+        app:layout_constraintTop_toBottomOf="@id/icon_sobre" />
+
+    <ImageView
         android:layout_width="110dp"
         android:layout_height="80dp"
+        android:id="@id/imageView"
         android:src="@drawable/na_logo_min"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

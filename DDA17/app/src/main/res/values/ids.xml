@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main -->
+    <item name="image_main" type="id"></item>
+    <item name="guidelineE" type="id"></item>
+    <item name="guidelineD" type="id"></item>
+    <item name="guidelineT" type="id"></item>
+    <item name="guidelineB" type="id"></item>
+    <item name="icon_programa" type="id"></item>
+    <item name="tv_programacao" type="id"></item>
+    <item name="icon_expo" type="id"></item>
+    <item name="tv_exposicao" type="id"></item>
+    <item name="icon_concerto" type="id"></item>
+    <item name="tv_concerto" type="id"></item>
+    <item name="icon_plateia" type="id"></item>
+    <item name="tv_plateia" type="id"></item>
+    <item name="icon_palestra" type="id"></item>
+    <item name="tv_palestra" type="id"></item>
+    <item name="icon_sobre" type="id"></item>
+    <item name="tv_sobre" type="id"></item>
+    <item name="imageView" type="id"></item>
+
+</resources>
