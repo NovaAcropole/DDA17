@@ -171,12 +171,12 @@
 
 
     <!-- Strings da página Audição Comentada -->
-    <string name="audicao_dica1_titulo">Dica 1</string>
-    <string name="audicao_dica2_titulo">Dica 2</string>
-    <string name="audicao_dica3_titulo">Dica 3</string>
-    <string name="audicao_dica4_titulo">Dica 4</string>
-    <string name="audicao_dica5_titulo">Dica 5</string>
-    <string name="audicao_dica6_titulo">Dica 6</string>
+    <string name="audicao_dica1_titulo">Dica 1 - Traje especial</string>
+    <string name="audicao_dica2_titulo">Dica 2 - Veja o programa</string>
+    <string name="audicao_dica3_titulo">Dica 3 - Apludir só no final</string>
+    <string name="audicao_dica4_titulo">Dica 4 - Evite fazer barulho</string>
+    <string name="audicao_dica5_titulo">Dica 5 - Desligue o celular</string>
+    <string name="audicao_dica6_titulo">Dica 6 - Concentre-se</string>
     <string name="audicao_dica1">Um concerto de música erudita é algo um pouco mais formal, então
         essa ocasião pede um traje mais especial. Vista-se elegante e confortavelmente.</string>
     <string name="audicao_dica2">Ao entrar na sala de espetáculo, geralmente é oferecido um
@@ -238,8 +238,8 @@
     <string name="sobre_na_telefone_sul">(85) 3037-9556 / (85) 98202-8600 (whatsapp)</string>
     <string name="sobre_na_mail">fortaleza@acropole.org.br</string>
     <string name="sobre_na_mail_sul">fortalezasul@acropole.org.br</string>
-    <string name="sobre_na_site">http://www.acropole.org.br/brasil/sedes/ceara/fortaleza.html</string>
-    <string name="sobre_na_site_sul">http:/www.acropole.org.br/brasil/sedes/ceara/fortaleza-sul.html</string>
+    <string name="sobre_na_site"><u>http://www.acropole.org.br/brasil/sedes/ceara/fortaleza.html</u></string>
+    <string name="sobre_na_site_sul"><u>http:/www.acropole.org.br/brasil/sedes/ceara/fortaleza-sul.html</u></string>
     <string name="sobre_na_localizacao_endereco">Rua Vicente Leite, 2451, Dionísio Torres, Fortaleza</string>
     <string name="sobre_na_localizacao_endereco_sul">Rua Antenor Rocha Alexandre, 330, Parque Manibura, Fortaleza</string>
     <string name="sobre_na_youtube">https://www.youtube.com/user/NovaAcropole</string>
