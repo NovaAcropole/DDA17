@@ -14,11 +14,6 @@ public class Content {
     private final String descricao;
     private Drawable image = null;
 
-    public Content(String titulo, String descricao) {
-        this.titulo = titulo;
-        this.descricao = descricao;
-    }
-
     public Content(Context context, int titulo, int descricao) {
         this.titulo = context.getResources().getString(titulo);
         this.descricao = context.getResources().getString(descricao);

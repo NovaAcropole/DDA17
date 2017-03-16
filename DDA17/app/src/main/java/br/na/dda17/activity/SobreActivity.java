@@ -6,6 +6,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Toast;
 
 import com.github.florent37.materialviewpager.MaterialViewPager;
 import com.github.florent37.materialviewpager.header.HeaderDesign;
@@ -64,6 +66,21 @@ public class SobreActivity extends AppCompatActivity {
             }
         });
 
+        // EEGG
+        final View logo = findViewById(R.id.logo_white);
+        if (logo != null) {
+            logo.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mViewPager.notifyHeaderChanged();
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.eegg),
+                            Toast.LENGTH_LONG).show();
+
+                }
+            });
+        }
+
     }
+
 
 }

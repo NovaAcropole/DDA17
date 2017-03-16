@@ -1,20 +1,29 @@
 package br.na.dda17.activity;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.Toast;
+import android.util.Log;
 
 import com.github.florent37.materialviewpager.MaterialViewPager;
 import com.github.florent37.materialviewpager.header.HeaderDesign;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import br.na.dda17.R;
 import br.na.dda17.Utils;
+import br.na.dda17.fragment.ExpoTab1Fragment;
+import br.na.dda17.fragment.ExpoTab2Fragment;
+import br.na.dda17.fragment.ExpoTab3Fragment;
+import br.na.dda17.fragment.ExpoTab4Fragment;
+import br.na.dda17.fragment.ExpoTab5Fragment;
+import br.na.dda17.fragment.ExpoTab6Fragment;
 import br.na.dda17.fragment.RecyclerViewFragment;
+import br.na.dda17.model.Content;
 import butterknife.ButterKnife;
 
 public class ExposicaoActivity extends AppCompatActivity {
@@ -46,12 +55,24 @@ public class ExposicaoActivity extends AppCompatActivity {
 
             @Override
             public Fragment getItem(int position) {
-                return RecyclerViewFragment.newInstance(Utils.VIEW_EXPO, position);
+                switch (position) {
+                    case 0:
+                        return ExpoTab1Fragment.newInstance();
+                    case 1:
+                        return ExpoTab2Fragment.newInstance();
+                    case 2:
+                        return ExpoTab3Fragment.newInstance();
+                    case 3:
+                        return ExpoTab4Fragment.newInstance();
+                    case 4:
+                        return ExpoTab5Fragment.newInstance();
+                }
+                return ExpoTab6Fragment.newInstance();
             }
 
             @Override
             public CharSequence getPageTitle(int position) {
-                switch (position % 4) {
+                switch (position) {
                     case 0:
                         return getResources().getString(R.string.exposicao_arte1_nome);
                     case 1:
@@ -67,12 +88,14 @@ public class ExposicaoActivity extends AppCompatActivity {
                 }
                 return "";
             }
+
         });
 
         mViewPager.setMaterialViewPagerListener(new MaterialViewPager.Listener() {
 
             @Override
             public HeaderDesign getHeaderDesign(int page) {
+
                 switch (page) {
                     case 0:
                         return HeaderDesign.fromColorAndDrawable(
@@ -100,27 +123,16 @@ public class ExposicaoActivity extends AppCompatActivity {
                                 ContextCompat.getDrawable(ExposicaoActivity.this, R.drawable.expo6));
                 }
 
-                //execute others actions if needed (ex : modify your header logo)
-                return null;
+                return HeaderDesign.fromColorAndDrawable(
+                        ContextCompat.getColor(ExposicaoActivity.this, R.color.colorPrimary),
+                        ContextCompat.getDrawable(ExposicaoActivity.this, R.drawable.expo3));
             }
 
         });
 
         mViewPager.getViewPager().setOffscreenPageLimit(mViewPager.getViewPager().getAdapter().getCount());
         mViewPager.getPagerTitleStrip().setViewPager(mViewPager.getViewPager());
+        mViewPager.getPagerTitleStrip().setTextColorResource(R.color.white);
 
-        // EEGG
-        final View logo = findViewById(R.id.logo_white);
-        if (logo != null) {
-            logo.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    mViewPager.notifyHeaderChanged();
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.eegg),
-                            Toast.LENGTH_LONG).show();
-
-                }
-            });
-        }
     }
 }
