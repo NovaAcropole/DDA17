@@ -5,14 +5,14 @@
     <string name="titulo_1programacao">Programação</string>
     <string name="titulo_2expo">Exposição</string>
     <string name="titulo_3concerto">Concerto</string>
-    <string name="titulo_4audicao">Audição comentada</string>
+    <string name="titulo_4audicao">Dicas de apreciação</string>
     <string name="titulo_5palestra">Palestra magna</string>
     <string name="titulo_6sobre">Saiba mais</string>
 
     <string name="menu_1programacao"><b>Programação</b></string>
     <string name="menu_2expo"><b>Exposição</b></string>
     <string name="menu_3concerto"><b>Concerto</b></string>
-    <string name="menu_4audicao"><b>Audição\ncomentada</b></string>
+    <string name="menu_4audicao"><b>Dicas de\napreciação</b></string>
     <string name="menu_5palestra"><b>Palestra\nmagna</b></string>
     <string name="menu_6sobre"><b>Saiba\nmais</b></string>
 
@@ -179,6 +179,8 @@
 
 
     <!-- Strings da página Audição Comentada -->
+    <string name="audicao_release_titulo">ADICIONAR TEXTO AQUI</string>
+    <string name="audicao_release_texto">ADICIONAR TEXTO AQUI</string>
     <string name="audicao_dica1_titulo">Dica 1 - Traje especial</string>
     <string name="audicao_dica2_titulo">Dica 2 - Veja o programa</string>
     <string name="audicao_dica3_titulo">Dica 3 - Aplaudir só no final</string>

@@ -1,11 +1,13 @@
 package br.na.dda17.activity;
 
+import android.graphics.Typeface;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.widget.TextView;
 
 import com.github.florent37.materialviewpager.MaterialViewPager;
 import com.github.florent37.materialviewpager.header.HeaderDesign;
@@ -66,6 +68,10 @@ public class AudicaoActivity extends AppCompatActivity {
             }
 
         });
+
+        //TextView title = (TextView) mViewPager.findViewById(R.id.logo_white);
+        //Typeface typeface = Typeface.createFromAsset(getApplicationContext().getResources().getAssets(), "fonts/kenyan-coffee.ttf");
+        //title.setTypeface(typeface);
 
     }
 }

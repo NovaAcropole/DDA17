@@ -1,20 +1,16 @@
 package br.na.dda17.activity;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import br.na.dda17.R;
 
 public class MainActivity extends AppCompatActivity {
 
     ImageView programacao, exposicao, concerto, plateia, palestra, sobre;
-    TextView tvProgramacao, tvExposicao, tvConcerto, tvPlateia, tvPalestra, tvSobre;
-    Typeface typeface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,27 +67,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //setAllFonts();
-    }
-
-    private void setAllFonts() {
-
-        tvConcerto = (TextView) findViewById(R.id.tv_concerto);
-        tvExposicao = (TextView) findViewById(R.id.tv_exposicao);
-        tvPalestra = (TextView) findViewById(R.id.tv_palestra);
-        tvPlateia = (TextView) findViewById(R.id.tv_plateia);
-        tvProgramacao = (TextView) findViewById(R.id.tv_programacao);
-        tvSobre = (TextView) findViewById(R.id.tv_sobre);
-
-        typeface = Typeface.createFromAsset(getApplicationContext().getResources().getAssets(), "fonts/kenyan-coffee.ttf");
-
-        tvConcerto.setTypeface(typeface);
-        tvExposicao.setTypeface(typeface);
-        tvPalestra.setTypeface(typeface);
-        tvPlateia.setTypeface(typeface);
-        tvProgramacao.setTypeface(typeface);
-        tvSobre.setTypeface(typeface);
-
     }
 
 
