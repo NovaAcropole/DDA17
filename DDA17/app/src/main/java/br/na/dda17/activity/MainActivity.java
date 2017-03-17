@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import br.na.dda17.R;
@@ -72,10 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         setAllFonts();
-
-
     }
 
     private void setAllFonts() {
@@ -95,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
         tvPlateia.setTypeface(typeface);
         tvProgramacao.setTypeface(typeface);
         tvSobre.setTypeface(typeface);
-
 
     }
 

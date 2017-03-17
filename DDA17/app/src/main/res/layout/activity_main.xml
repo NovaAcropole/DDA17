@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="br.na.dda17.activity.MainActivity"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    tools:context="br.na.dda17.activity.MainActivity">
 
     <ImageView
         android:id="@id/image_main"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="160dp"
         android:background="@drawable/fundo"
         android:padding="8dp"
         android:src="@drawable/banner_inferior_transp"
@@ -44,20 +44,20 @@
         app:layout_constraintGuide_percent="0.2" />
 
     <android.support.constraint.Guideline
+        android:id="@id/guidelineB"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@id/guidelineB"
-        app:layout_constraintGuide_percent="0.75"
-        android:orientation="horizontal" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
 
     <ImageView
         android:id="@id/icon_programa"
         style="@style/MenuImage"
         android:src="@drawable/icon1_programa"
+        app:layout_constraintBottom_toTopOf="@id/icon_plateia"
         app:layout_constraintLeft_toLeftOf="@id/guidelineE"
-        app:layout_constraintTop_toBottomOf="@id/guidelineT"
         app:layout_constraintRight_toLeftOf="@id/icon_expo"
-        app:layout_constraintBottom_toTopOf="@id/icon_plateia" />
+        app:layout_constraintTop_toBottomOf="@id/guidelineT" />
 
     <TextView
         android:id="@id/tv_programacao"
@@ -65,16 +65,16 @@
         android:text="@string/menu_1programacao"
         app:layout_constraintLeft_toLeftOf="@id/icon_programa"
         app:layout_constraintRight_toRightOf="@id/icon_programa"
-        app:layout_constraintTop_toBottomOf="@id/icon_programa"/>
+        app:layout_constraintTop_toBottomOf="@id/icon_programa" />
 
     <ImageView
         android:id="@id/icon_expo"
         style="@style/MenuImage"
         android:src="@drawable/icon2_expo"
+        app:layout_constraintBottom_toTopOf="@id/icon_palestra"
         app:layout_constraintLeft_toRightOf="@id/icon_programa"
         app:layout_constraintRight_toLeftOf="@id/icon_concerto"
-        app:layout_constraintTop_toBottomOf="@id/guidelineT"
-        app:layout_constraintBottom_toTopOf="@id/icon_palestra" />
+        app:layout_constraintTop_toBottomOf="@id/guidelineT" />
 
     <TextView
         android:id="@id/tv_exposicao"
@@ -82,16 +82,16 @@
         android:text="@string/menu_2expo"
         app:layout_constraintLeft_toLeftOf="@id/icon_expo"
         app:layout_constraintRight_toRightOf="@id/icon_expo"
-        app:layout_constraintTop_toBottomOf="@id/icon_expo"/>
+        app:layout_constraintTop_toBottomOf="@id/icon_expo" />
 
     <ImageView
         android:id="@id/icon_concerto"
         style="@style/MenuImage"
         android:src="@drawable/icon3_recital"
+        app:layout_constraintBottom_toTopOf="@id/icon_sobre"
         app:layout_constraintLeft_toRightOf="@id/icon_expo"
         app:layout_constraintRight_toLeftOf="@id/guidelineD"
-        app:layout_constraintTop_toBottomOf="@id/guidelineT"
-        app:layout_constraintBottom_toTopOf="@id/icon_sobre" />
+        app:layout_constraintTop_toBottomOf="@id/guidelineT" />
 
     <TextView
         android:id="@id/tv_concerto"
@@ -99,17 +99,17 @@
         android:text="@string/menu_3concerto"
         app:layout_constraintLeft_toLeftOf="@id/icon_concerto"
         app:layout_constraintRight_toRightOf="@id/icon_concerto"
-        app:layout_constraintTop_toBottomOf="@id/icon_concerto"/>
+        app:layout_constraintTop_toBottomOf="@id/icon_concerto" />
 
     <ImageView
         android:id="@id/icon_plateia"
         style="@style/MenuImage"
+        android:layout_marginTop="8dp"
         android:src="@drawable/icon4_plateia"
-        app:layout_constraintTop_toBottomOf="@id/icon_programa"
+        app:layout_constraintBottom_toTopOf="@id/guidelineB"
         app:layout_constraintLeft_toLeftOf="@id/guidelineE"
         app:layout_constraintRight_toLeftOf="@id/icon_palestra"
-        app:layout_constraintBottom_toTopOf="@id/guidelineB"
-        android:layout_marginTop="8dp" />
+        app:layout_constraintTop_toBottomOf="@id/icon_programa" />
 
     <TextView
         android:id="@id/tv_plateia"
@@ -122,12 +122,12 @@
     <ImageView
         android:id="@id/icon_palestra"
         style="@style/MenuImage"
+        android:layout_marginTop="8dp"
         android:src="@drawable/icon5_palestra"
-        app:layout_constraintTop_toBottomOf="@id/icon_expo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineB"
         app:layout_constraintLeft_toRightOf="@id/icon_plateia"
         app:layout_constraintRight_toLeftOf="@id/icon_sobre"
-        app:layout_constraintBottom_toTopOf="@id/guidelineB"
-        android:layout_marginTop="8dp" />
+        app:layout_constraintTop_toBottomOf="@id/icon_expo" />
 
     <TextView
         android:id="@id/tv_palestra"
@@ -135,17 +135,17 @@
         android:text="@string/menu_5palestra"
         app:layout_constraintLeft_toLeftOf="@id/icon_palestra"
         app:layout_constraintRight_toRightOf="@id/icon_palestra"
-        app:layout_constraintTop_toBottomOf="@id/icon_palestra"/>
+        app:layout_constraintTop_toBottomOf="@id/icon_palestra" />
 
     <ImageView
         android:id="@id/icon_sobre"
         style="@style/MenuImage"
+        android:layout_marginTop="8dp"
         android:src="@drawable/icon6_sobre"
+        app:layout_constraintBottom_toTopOf="@id/guidelineB"
         app:layout_constraintLeft_toRightOf="@id/icon_palestra"
         app:layout_constraintRight_toLeftOf="@id/guidelineD"
-        app:layout_constraintBottom_toTopOf="@id/guidelineB"
-        app:layout_constraintTop_toBottomOf="@id/icon_concerto"
-        android:layout_marginTop="8dp" />
+        app:layout_constraintTop_toBottomOf="@id/icon_concerto" />
 
     <TextView
         android:id="@id/tv_sobre"
@@ -156,13 +156,13 @@
         app:layout_constraintTop_toBottomOf="@id/icon_sobre" />
 
     <ImageView
+        android:id="@id/imageView"
         android:layout_width="110dp"
         android:layout_height="80dp"
-        android:id="@id/imageView"
         android:src="@drawable/na_logo_min"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
 
