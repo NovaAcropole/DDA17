@@ -3,7 +3,7 @@
     android:id="@+id/logo_white"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="@string/menu_4audicao"
+    android:text="@string/titulo_4audicao"
     android:textAlignment="center"
     android:textSize="28sp"
     android:textColor="@android:color/white"/>

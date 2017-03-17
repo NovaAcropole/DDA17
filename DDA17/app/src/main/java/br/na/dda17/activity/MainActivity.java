@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        setAllFonts();
+        //setAllFonts();
     }
 
     private void setAllFonts() {
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         tvProgramacao = (TextView) findViewById(R.id.tv_programacao);
         tvSobre = (TextView) findViewById(R.id.tv_sobre);
 
-        typeface = Typeface.createFromAsset(getApplicationContext().getResources().getAssets(), "fonts/KeplerStd-Medium.otf");
+        typeface = Typeface.createFromAsset(getApplicationContext().getResources().getAssets(), "fonts/kenyan-coffee.ttf");
 
         tvConcerto.setTypeface(typeface);
         tvExposicao.setTypeface(typeface);

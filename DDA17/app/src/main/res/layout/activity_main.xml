@@ -12,29 +12,28 @@
         android:layout_width="0dp"
         android:layout_height="160dp"
         android:background="@drawable/fundo"
-        android:padding="8dp"
+        android:padding="22dp"
+        android:scaleType="fitEnd"
         android:src="@drawable/banner_inferior_transp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-14dp"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <android.support.constraint.Guideline
         android:id="@id/guidelineE"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.05"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintGuide_percent="0.04" />
 
     <android.support.constraint.Guideline
         android:id="@id/guidelineD"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.95"
-        tools:layout_editor_absoluteX="365dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintGuide_percent="0.96" />
 
     <android.support.constraint.Guideline
         android:id="@id/guidelineT"
@@ -104,12 +103,11 @@
     <ImageView
         android:id="@id/icon_plateia"
         style="@style/MenuImage"
-        android:layout_marginTop="8dp"
         android:src="@drawable/icon4_plateia"
         app:layout_constraintBottom_toTopOf="@id/guidelineB"
         app:layout_constraintLeft_toLeftOf="@id/guidelineE"
         app:layout_constraintRight_toLeftOf="@id/icon_palestra"
-        app:layout_constraintTop_toBottomOf="@id/icon_programa" />
+        android:layout_marginBottom="0dp" />
 
     <TextView
         android:id="@id/tv_plateia"
@@ -122,12 +120,10 @@
     <ImageView
         android:id="@id/icon_palestra"
         style="@style/MenuImage"
-        android:layout_marginTop="8dp"
         android:src="@drawable/icon5_palestra"
         app:layout_constraintBottom_toTopOf="@id/guidelineB"
         app:layout_constraintLeft_toRightOf="@id/icon_plateia"
-        app:layout_constraintRight_toLeftOf="@id/icon_sobre"
-        app:layout_constraintTop_toBottomOf="@id/icon_expo" />
+        app:layout_constraintRight_toLeftOf="@id/icon_sobre" />
 
     <TextView
         android:id="@id/tv_palestra"
@@ -140,12 +136,10 @@
     <ImageView
         android:id="@id/icon_sobre"
         style="@style/MenuImage"
-        android:layout_marginTop="8dp"
         android:src="@drawable/icon6_sobre"
         app:layout_constraintBottom_toTopOf="@id/guidelineB"
         app:layout_constraintLeft_toRightOf="@id/icon_palestra"
-        app:layout_constraintRight_toLeftOf="@id/guidelineD"
-        app:layout_constraintTop_toBottomOf="@id/icon_concerto" />
+        app:layout_constraintRight_toLeftOf="@id/guidelineD" />
 
     <TextView
         android:id="@id/tv_sobre"

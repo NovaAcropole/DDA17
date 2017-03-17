@@ -2,12 +2,19 @@
     <string name="app_name">DDA17</string>
 
     <!-- Menu Items -->
-    <string name="menu_1programacao">Programação</string>
-    <string name="menu_2expo">Exposição</string>
-    <string name="menu_3concerto">Concerto</string>
-    <string name="menu_4audicao">Audição\ncomentada</string>
-    <string name="menu_5palestra">Palestra\nmagna</string>
-    <string name="menu_6sobre">Sobre</string>
+    <string name="titulo_1programacao">Programação</string>
+    <string name="titulo_2expo">Exposição</string>
+    <string name="titulo_3concerto">Concerto</string>
+    <string name="titulo_4audicao">Audição comentada</string>
+    <string name="titulo_5palestra">Palestra magna</string>
+    <string name="titulo_6sobre">Saiba mais</string>
+
+    <string name="menu_1programacao"><b>Programação</b></string>
+    <string name="menu_2expo"><b>Exposição</b></string>
+    <string name="menu_3concerto"><b>Concerto</b></string>
+    <string name="menu_4audicao"><b>Audição\ncomentada</b></string>
+    <string name="menu_5palestra"><b>Palestra\nmagna</b></string>
+    <string name="menu_6sobre"><b>Saiba\nmais</b></string>
 
 
     <!-- Strings da página Programação -->
