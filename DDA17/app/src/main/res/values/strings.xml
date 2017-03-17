@@ -76,7 +76,7 @@
         proporções áureas para a criação das obras presentes no Parthenon.</string>
     <string name="exposicao_arte1_obra3_texto">As construções das igrejas medievais tiveram um
         desenho muito similar às obras gregas, tendo belas proporções perfeitamente estudadas. A
-        Catedral de Notre Dame de Paris, situada na parte oriental da Ile de CIté, na capital da
+        Catedral de Notre Dame de Paris, situada na parte oriental da Ile de Cité, na capital da
         França, foi consagrada a Maria e, por isso, chamam-na de Notre Dame. É uma das catedrais
         mais famosas da Idade Média e provavelmente a representante mais conhecida da arte gótica
         francesa. Sua fachada ocidental está harmoniosamente desenhada de acordo com a proporção
@@ -85,8 +85,8 @@
         originalmente tinha cabeça e braços, com a mão elevada em um gesto de saudação. Esta
         estátua maciça, de aspecto tão leve, ficava numa fonte sobre um promotório em forma de
         navio, provavelmente em comemoração a uma batalha náutica. Foi esculpida por volta do ano
-        200 aC. Seus pedaços foram encontrados em 1863 nas ruinas do Santuário dos Grandes Deuses
-        de Samotrácia, na Grécia. Hoje, é um dos maiores destaques do Museu do Louvre</string>
+        200 aC. Seus pedaços foram encontrados em 1863 nas ruínas do Santuário dos Grandes Deuses
+        de Samotrácia, na Grécia. Hoje, é um dos maiores destaques do Museu do Louvre.</string>
     <string name="exposicao_arte2_obra2_texto">O Exército de Terracota é uma coleção de esculturas
         de finalidade funerária enterradas junto com o imperador Qin Shi Huang, o primeiro
         imperador da dinastia Qin, em 210 aC. A obra monumental conta com cerca de 7 mil soldados,
@@ -114,7 +114,7 @@
     <string name="exposicao_arte4_obra1_texto">Dom Quixote decide tornar-se um cavaleiro andante e
         parte pelo mundo para viver o seu próprio romance de cavalaria, em companhia de Sancho
         Pança, seu fiel amigo e escudeiro. Cervantes deixa traçado para toda a humanidade, com seu
-        louco genial, o ideal cavalheiresco comum a todos os povos e a todas as épocas. Sua obra
+        personagem genial, o ideal cavalheiresco comum a todos os povos e a todas as épocas. Sua obra
         é, na verdade, a vitória e a perpetuação da cavalaria entre nós. “A via da virtude,
         restrita e trabalhosa, termina em vida, e não em uma vida que se acaba, mas na vida que
         não terá fim.”</string>
@@ -128,7 +128,7 @@
     <string name="exposicao_arte4_obra3_texto">O Profeta é a obra mais famosa do poeta libanês
         Khalil Gibran. É um livro que atrai não somente pelo estilo, mas também pela filosofia de
         alto nível contida nele. Seu pensamento faz coro aos clássicos da filosofia do ocidente e
-        do oriente. O livro conta a história do profeta Al Mustafá, que compartilhar sua sabedoria
+        do oriente. O livro conta a história do profeta Al Mustafá, que compartilha sua sabedoria
         com os moradores de Orphalese.</string>
     <string name="exposicao_arte5_obra1_texto">A dança clássica indiana é uma linguagem que busca
         unir o homem à sua essência divina. Acredita-se que ela teve origem há seis mil anos. Ao
@@ -144,7 +144,7 @@
         Adormecida, Romeu e Julieta, Le Corsaire, La Fille Mal Gardée, Giselle, La Sylphide, La
         Bayadère, Dom Quixote e Raymonda são algumas das mais importantes obras clássicas do
         Ballet. Nestas obras, através da música, da dança e da teatralização, ricos enredos
-        humanizam o espectador, utilizando elementos como disciplina, leveza e harmonia</string>
+        humanizam o espectador, utilizando elementos como disciplina, leveza e harmonia.</string>
     <string name="exposicao_arte6_obra1_texto">A música clássica indiana tem sua origem nos Vedas,
         escritura sagrada. Esta literatura foi composta em forma de poesia e transmitida pelo
         canto. Assim, ela participava da vida do povo indiano do seu nascimento à cremação, de
@@ -204,7 +204,7 @@
     <string name="audicao_dica6">Prepare-se... o concerto já vai começar! É hora de acalmar os
         ânimos e se preparar para apreciar uma bela música. Apreciar uma obra requer máxima
         atenção e concentração. A beleza se encontra nos detalhes e a concentração é
-        fundamental</string>
+        fundamental.</string>
 
     <!-- Strings da página Palestra -->
 
@@ -233,7 +233,7 @@
 
     <string name="sobre_dda_titulo">Dia da Arte</string>
     <string name="sobre_dda_descricao">O Dia da Arte é comemorado anualmente pela escola de filosofia Nova
-        Acrópole em todas as suas sedes pelo país com o objetivo de relembrar como o cultivo da
+        Acrópole, em todas as suas sedes pelo país, com o objetivo de relembrar como o cultivo da
         arte à maneira clássica pode ser um caminho para o homem encontrar a harmonia interior.\n\n
         Neste ano, o Cineteatro São Luiz foi o palco escolhido em Fortaleza para receber o evento,
         tendo como tema central “Arte: Caminhos para a Harmonia”.</string>
