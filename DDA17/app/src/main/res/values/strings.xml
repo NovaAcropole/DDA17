@@ -264,7 +264,8 @@
     <string name="eegg">A arte ajuda a contemplar o belo e perceber, dentro de um
         mundo com tantas coisas difíceis, coisas que no dia a dia não conseguimos ver.
         E você acabou de ir além, descobriu nosso presente. Assim como descobrirá a beleza na arte.
-        Parabéns! Você acabou de ganhar 1 mês de aula na Nova Acrópole! Entre no link abaixo e
+        Parabéns! <b>Você acabou de ganhar 1 mês de aula na Nova Acrópole!</b> Clique em Continuar e
         preencha o formulário com seus dados.</string>
+    <string name="egg_link">https://docs.google.com/forms/d/e/1FAIpQLSee5yodI8J-9bQCed-Uhpqq34MAcZy61mlhPWUzUFphIDHizg/viewform</string>
 
 </resources>
