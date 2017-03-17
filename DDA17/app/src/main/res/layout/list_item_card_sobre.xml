@@ -25,14 +25,6 @@
 
             <TextView
                 style="@style/SobreTitleText"
-                android:text="@string/sobre_na_titulo" />
-
-            <TextView
-                style="@style/SobreText"
-                android:text="@string/sobre_na_descricao" />
-
-            <TextView
-                style="@style/SobreTitleText"
                 android:text="@string/sobre_dda_titulo" />
 
             <TextView
@@ -45,23 +37,27 @@
                 android:text="@string/sobre_dda_localizacao_titulo" />
 
             <LinearLayout
+                android:id="@+id/image_maps"
                 style="@style/SobreText"
                 android:layout_marginBottom="25dp"
                 android:gravity="top"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="4">
 
-                <ImageButton
-                    android:id="@+id/image_maps"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:background="@android:color/transparent"
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/maps" />
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:src="@drawable/maps"
+                    android:layout_gravity="center_vertical"/>
 
                 <TextView
                     style="@style/SobreText"
-                    android:paddingTop="0dp"
-                    android:text="@string/sobre_dda_localizacao_endereco" />
+                    android:text="@string/sobre_dda_localizacao_endereco"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"/>
 
             </LinearLayout>
 
@@ -74,7 +70,17 @@
 
             <TextView
                 style="@style/SobreTitleText"
+                android:text="@string/sobre_na_titulo" />
+
+            <TextView
+                style="@style/SobreText"
+                android:text="@string/sobre_na_descricao" />
+
+
+            <TextView
+                style="@style/SobreTitleText"
                 android:paddingTop="0dp"
+                android:textSize="16dp"
                 android:text="@string/sobre_na_fort" />
 
             <TextView
@@ -92,21 +98,25 @@
                 android:text="@string/sobre_na_telefone" />
 
         <LinearLayout
+            android:id="@+id/image_maps_na"
             style="@style/SobreText"
-            android:layout_marginBottom="25dp"
             android:gravity="top"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="4">
 
             <ImageButton
-                android:id="@+id/image_maps_na"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:src="@drawable/maps" />
 
             <TextView
                 style="@style/SobreText"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
                 android:text="@string/sobre_na_localizacao_endereco" />
         </LinearLayout>
 
@@ -114,8 +124,8 @@
                 android:id="@+id/layoutRedesSociais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="25dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="8dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -138,16 +148,10 @@
 
             </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:background="@color/cardview_shadow_start_color" />
-
             <TextView
                 style="@style/SobreTitleText"
                 android:paddingTop="0dp"
+                android:textSize="16dp"
                 android:text="@string/sobre_na_fort_sul" />
 
             <TextView
@@ -165,21 +169,25 @@
                 android:text="@string/sobre_na_telefone_sul" />
 
         <LinearLayout
+            android:id="@+id/image_maps_na_sul"
             style="@style/SobreText"
-            android:layout_marginBottom="25dp"
             android:gravity="top"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="4">
 
             <ImageButton
-                android:id="@+id/image_maps_na_sul"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:src="@drawable/maps" />
             <TextView
                 style="@style/SobreText"
-                android:text="@string/sobre_na_localizacao_endereco_sul" />
+                android:text="@string/sobre_na_localizacao_endereco_sul"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"/>
         </LinearLayout>
 
             <LinearLayout
@@ -187,7 +195,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:orientation="horizontal">
 
                 <ImageButton

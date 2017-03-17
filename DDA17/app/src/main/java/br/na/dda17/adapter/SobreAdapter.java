@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -62,7 +63,7 @@ class SobreHolder extends RecyclerView.ViewHolder {
 
     ImageButton faceBtn, instaBtn, youtubeBtn;
     ImageButton faceSulBtn, instaSulBtn;
-    ImageButton mapBtn, mapNaBtn, mapNaSBtn;
+    LinearLayout mapBtn, mapNaBtn, mapNaSBtn;
     TextView siteNa, siteNaSul;
     TextView emailNa, emailNaSul;
 
@@ -75,9 +76,9 @@ class SobreHolder extends RecyclerView.ViewHolder {
         faceSulBtn = (ImageButton) view.findViewById(R.id.image_facebook_sul);
         instaSulBtn = (ImageButton) view.findViewById(R.id.image_insta_sul);
 
-        mapBtn = (ImageButton) view.findViewById(R.id.image_maps);
-        mapNaBtn = (ImageButton) view.findViewById(R.id.image_maps_na);
-        mapNaSBtn = (ImageButton) view.findViewById(R.id.image_maps_na_sul);
+        mapBtn = (LinearLayout) view.findViewById(R.id.image_maps);
+        mapNaBtn = (LinearLayout) view.findViewById(R.id.image_maps_na);
+        mapNaSBtn = (LinearLayout) view.findViewById(R.id.image_maps_na_sul);
 
         siteNa = (TextView) view.findViewById(R.id.sitena);
         siteNaSul = (TextView) view.findViewById(R.id.sitenasul);
