@@ -91,9 +91,24 @@
                 style="@style/SobreText"
                 android:text="@string/sobre_na_telefone" />
 
+        <LinearLayout
+            style="@style/SobreText"
+            android:layout_marginBottom="25dp"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/image_maps_na"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/maps" />
+
             <TextView
                 style="@style/SobreText"
                 android:text="@string/sobre_na_localizacao_endereco" />
+        </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/layoutRedesSociais"
@@ -149,9 +164,23 @@
                 style="@style/SobreText"
                 android:text="@string/sobre_na_telefone_sul" />
 
+        <LinearLayout
+            style="@style/SobreText"
+            android:layout_marginBottom="25dp"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/image_maps_na_sul"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/maps" />
             <TextView
                 style="@style/SobreText"
                 android:text="@string/sobre_na_localizacao_endereco_sul" />
+        </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/layoutRedesSociaisSul"
