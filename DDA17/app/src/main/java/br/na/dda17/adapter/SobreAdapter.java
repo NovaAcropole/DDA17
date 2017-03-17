@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.net.Uri;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -66,6 +68,8 @@ class SobreHolder extends RecyclerView.ViewHolder {
     LinearLayout mapBtn, mapNaBtn, mapNaSBtn;
     TextView siteNa, siteNaSul;
     TextView emailNa, emailNaSul;
+    TextView telefoneNa1, telefoneNaSul1;
+    TextView telefoneNa2, telefoneNaSul2;
 
     public SobreHolder(View view) {
         super(view);
@@ -84,10 +88,74 @@ class SobreHolder extends RecyclerView.ViewHolder {
         siteNaSul = (TextView) view.findViewById(R.id.sitenasul);
         emailNa = (TextView) view.findViewById(R.id.emailna);
         emailNaSul = (TextView) view.findViewById(R.id.emailnasul);
+        telefoneNa1 = (TextView) view.findViewById(R.id.telefoneNa1);
+        telefoneNa2 = (TextView) view.findViewById(R.id.telefoneNa2);
+        telefoneNaSul1 = (TextView) view.findViewById(R.id.telefoneNaSul1);
+        telefoneNaSul2 = (TextView) view.findViewById(R.id.telefoneNaSul2);
+
+
         setButtons();
     }
 
     public void setButtons() {
+
+        telefoneNa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:" + view.getResources().getString(R.string.sobre_na_telefone1_ligar)));
+                view.getContext().startActivity(callIntent);
+
+            }
+        });
+        telefoneNa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:" + view.getResources().getString(R.string.sobre_na_telefone2_ligar)));
+                view.getContext().startActivity(callIntent);
+
+            }
+        });
+        telefoneNaSul1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:" + view.getResources().getString(R.string.sobre_na_telefone_sul1_ligar)));
+                view.getContext().startActivity(callIntent);
+            }
+        });
+
+        telefoneNaSul2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:" + view.getResources().getString(R.string.sobre_na_telefone_sul2_ligar)));
+                view.getContext().startActivity(callIntent);
+            }
+        });
+
+        emailNa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto", view.getResources().getString(R.string.sobre_na_mail), null));
+                view.getContext().startActivity(Intent.createChooser(emailIntent, "Nova Acrópole..."));
+
+            }
+        });
+        emailNaSul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto", view.getResources().getString(R.string.sobre_na_mail_sul), null));
+                view.getContext().startActivity(Intent.createChooser(emailIntent, "Nova Acrópole..."));
+
+            }
+        });
+
 
         siteNa.setOnClickListener(new View.OnClickListener() {
             @Override

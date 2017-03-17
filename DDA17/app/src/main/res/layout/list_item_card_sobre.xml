@@ -47,17 +47,17 @@
                 <ImageView
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:scaleType="fitCenter"
-                    android:background="@android:color/transparent"
+                    android:layout_gravity="center_vertical"
                     android:layout_weight="1"
-                    android:src="@drawable/maps"
-                    android:layout_gravity="center_vertical"/>
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/maps" />
 
                 <TextView
                     style="@style/SobreText"
-                    android:text="@string/sobre_dda_localizacao_endereco"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="3"/>
+                    android:layout_weight="3"
+                    android:text="@string/sobre_dda_localizacao_endereco" />
 
             </LinearLayout>
 
@@ -80,8 +80,8 @@
             <TextView
                 style="@style/SobreTitleText"
                 android:paddingTop="0dp"
-                android:textSize="16dp"
-                android:text="@string/sobre_na_fort" />
+                android:text="@string/sobre_na_fort"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/sitena"
@@ -93,32 +93,56 @@
                 style="@style/SobreText"
                 android:text="@string/sobre_na_mail" />
 
-            <TextView
+            <LinearLayout
                 style="@style/SobreText"
-                android:text="@string/sobre_na_telefone" />
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:id="@+id/image_maps_na"
-            style="@style/SobreText"
-            android:gravity="top"
-            android:orientation="horizontal"
-            android:weightSum="4">
+                <TextView
+                    android:id="@+id/telefoneNa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sobre_na_telefone1" />
 
-            <ImageButton
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:background="@android:color/transparent"
-                android:scaleType="fitCenter"
-                android:layout_weight="1"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/maps" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / " />
 
-            <TextView
+                <TextView
+                    android:id="@+id/telefoneNa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sobre_na_telefone2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (Whatsapp) " />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image_maps_na"
                 style="@style/SobreText"
-                android:layout_weight="3"
-                android:layout_gravity="center_vertical"
-                android:text="@string/sobre_na_localizacao_endereco" />
-        </LinearLayout>
+                android:gravity="top"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/maps" />
+
+                <TextView
+                    style="@style/SobreText"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:text="@string/sobre_na_localizacao_endereco" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/layoutRedesSociais"
@@ -151,8 +175,8 @@
             <TextView
                 style="@style/SobreTitleText"
                 android:paddingTop="0dp"
-                android:textSize="16dp"
-                android:text="@string/sobre_na_fort_sul" />
+                android:text="@string/sobre_na_fort_sul"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/sitenasul"
@@ -164,31 +188,56 @@
                 style="@style/SobreText"
                 android:text="@string/sobre_na_mail_sul" />
 
-            <TextView
+            <LinearLayout
                 style="@style/SobreText"
-                android:text="@string/sobre_na_telefone_sul" />
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:id="@+id/image_maps_na_sul"
-            style="@style/SobreText"
-            android:gravity="top"
-            android:orientation="horizontal"
-            android:weightSum="4">
+                <TextView
+                    android:id="@+id/telefoneNaSul1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sobre_na_telefone_sul1" />
 
-            <ImageButton
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:background="@android:color/transparent"
-                android:scaleType="fitCenter"
-                android:layout_weight="1"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/maps" />
-            <TextView
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / " />
+
+                <TextView
+                    android:id="@+id/telefoneNaSul2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sobre_na_telefone_sul2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (Whatsapp) " />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image_maps_na_sul"
                 style="@style/SobreText"
-                android:text="@string/sobre_na_localizacao_endereco_sul"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="3"/>
-        </LinearLayout>
+                android:gravity="top"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/maps" />
+
+                <TextView
+                    style="@style/SobreText"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:text="@string/sobre_na_localizacao_endereco_sul" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/layoutRedesSociaisSul"
